@@ -1,0 +1,60 @@
+{
+    "containerDefinitions": [
+        {
+            "secrets":  [
+                {
+                  "name": "NEXT_PUBLIC_PROJECT_ID",
+                  "valueFrom": "/LC/${DEPLOY_ENV}/LISKDEXUI/NEXT_PUBLIC_PROJECT_ID"
+                },
+                {
+                    "name": "NEXT_PUBLIC_RELAY_URL",
+                    "valueFrom": "/LC/${DEPLOY_ENV}/LISKDEXUI/NEXT_PUBLIC_RELAY_URL"
+                },
+                {
+                    "name": "NEXT_PUBLIC_TEST_NET",
+                    "valueFrom": "/LC/${DEPLOY_ENV}/LISKDEXUI/NEXT_PUBLIC_TEST_NET"
+                },
+                {
+                    "name": "NEXT_PUBLIC_LISK_SERVICE_URL",
+                    "valueFrom": "/LC/${DEPLOY_ENV}/LISKDEXUI/NEXT_PUBLIC_LISK_SERVICE_URL"
+                },
+                {
+                    "name": "NEXT_PUBLIC_DEX_SERVICE_URL",
+                    "valueFrom": "/LC/${DEPLOY_ENV}/LISKDEXUI/NEXT_PUBLIC_DEX_SERVICE_URL"
+                },
+                {
+                    "name": "NEXT_PUBLIC_WS_URL",
+                    "valueFrom": "/LC/${DEPLOY_ENV}/LISKDEXUI/NEXT_PUBLIC_WS_URL"
+                }
+            ],
+            "name": "${DEPLOYMENT_NAME}",
+            "image": "${DOCKER_IMAGE}",
+            "cpu": 0,
+            "memoryReservation": 600,
+            "portMappings": [
+                {
+                    "containerPort": 3000,
+                    "hostPort": 3000,
+                    "protocol": "tcp"
+                }
+            ],
+            "essential": true,
+            "environment": [],
+            "logConfiguration": {
+                "logDriver": "awslogs",
+                "options": {
+                    "awslogs-group": "/ecs/${DEPLOYMENT_NAME}",
+                    "awslogs-region": "eu-central-1",
+                    "awslogs-stream-prefix": "ecs"
+                }
+            }
+        }
+    ],
+    "family": "${DEPLOYMENT_NAME}",
+    "taskRoleArn": "arn:aws:iam::132202091885:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::132202091885:role/ecsTaskExecutionRole",
+    "networkMode": "awsvpc",
+    "requiresCompatibilities": [
+        "EC2"
+    ]
+}

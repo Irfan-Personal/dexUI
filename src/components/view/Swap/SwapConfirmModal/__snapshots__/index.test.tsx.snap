@@ -1,0 +1,847 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwapConfirmModal checks if the component matches the snapshot 1`] = `
+.emotion-0 .swap-confirm-modal-background {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 30;
+}
+
+.emotion-0 .swap-confirm-modal-container {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-bottom: 10rem;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 22.75rem;
+  border-radius: 0.5rem;
+  background: #FFFFFF!important;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);
+  z-index: 30;
+  padding: 1.5rem;
+}
+
+@media (max-width:575.95px) {
+  .emotion-0 .swap-confirm-modal-container {
+    width: calc(100% - 4rem);
+    left: 2rem;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+
+.emotion-0 .swap-confirm-modal-container .swap-confirm-modal-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  color: #282828;
+  margin-bottom: 2rem;
+}
+
+.emotion-0 .swap-confirm-modal-container .swap-confirm-modal-header svg {
+  cursor: pointer;
+}
+
+.emotion-0 .swap-confirm-modal-container .swap-confirm-modal-body .swap-confirm-token-amount {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.emotion-0 .swap-confirm-modal-container .swap-confirm-modal-body .swap-confirm-token-amount svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.emotion-0 .swap-confirm-modal-container .swap-confirm-modal-body .swap-confirm-token-amount .swap-confirm-amount {
+  margin-left: 0.5rem;
+}
+
+.emotion-0 .swap-confirm-modal-container .swap-confirm-modal-body .swap-confirm-token-amount .swap-confirm-estimate-amount {
+  margin-left: 0.75rem;
+  color: #6B7280;
+  font-size: 0.75rem;
+}
+
+.emotion-0 .swap-confirm-modal-container .swap-confirm-modal-body .transaction-detail {
+  margin-top: 2rem;
+}
+
+.emotion-0 .swap-confirm-modal-container .swap-confirm-modal-body .transaction-detail .transaction-detail-title {
+  margin-bottom: 1rem;
+}
+
+.emotion-0 .swap-confirm-modal-container .swap-confirm-modal-body .transaction-detail .transaction-detail-property {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.emotion-0 .swap-confirm-modal-container .swap-confirm-modal-body .transaction-detail .transaction-detail-property p {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-0 .swap-confirm-modal-container .swap-confirm-modal-body .transaction-detail .transaction-detail-property .transaction-detail-property-title svg {
+  margin-left: 0.25rem;
+}
+
+.emotion-0 .swap-confirm-modal-container .swap-confirm-modal-body .transaction-detail .transaction-detail-property.price-impact .transaction-detail-property-value {
+  color: #BD5359;
+}
+
+.emotion-0 .swap-confirm-modal-container .swap-confirm-modal-body .transaction-detail .transaction-detail-property.network-fee .transaction-detail-property-value {
+  color: #282828;
+}
+
+.emotion-0 .swap-confirm-modal-container .swap-confirm-modal-body .transaction-detail .transaction-detail-property.minimum-received .transaction-detail-property-value {
+  color: #282828;
+}
+
+.emotion-0 .swap-confirm-modal-container .swap-confirm-modal-body .transaction-detail .transaction-detail-property.minimum-received {
+  margin-bottom: 2.5rem;
+}
+
+.emotion-0 .swap-confirm-modal-container .swap-confirm-modal-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-0 .swap-confirm-modal-container .swap-confirm-modal-footer .swap-confirm-modal-cancel {
+  width: 10rem;
+  margin-right: 1rem;
+  background: none;
+}
+
+.emotion-0 .swap-confirm-modal-container .swap-confirm-modal-footer .swap-confirm-modal-cancel:hover p {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.emotion-0 .swap-confirm-modal-container .swap-confirm-modal-footer .swap-confirm-modal-cancel P {
+  color: #535353;
+}
+
+.emotion-0 .swap-confirm-modal-container .swap-confirm-arrow {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 0.375rem;
+}
+
+.emotion-4 {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.00735em;
+}
+
+.emotion-6 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  font-weight: 500;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.00938em;
+}
+
+.emotion-8 {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.01071em;
+}
+
+.emotion-29 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  min-width: 64px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: #1976d2;
+  width: 100%;
+  color: #FF4557;
+  padding: 0.75rem;
+  text-transform: capitalize;
+}
+
+.emotion-29::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-29.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-29 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-29:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: rgba(25, 118, 210, 0.04);
+}
+
+@media (hover: none) {
+  .emotion-29:hover {
+    background-color: transparent;
+  }
+}
+
+.emotion-29.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.emotion-29.MuiButton-outlined {
+  border-color: #FF4557;
+}
+
+.emotion-29.MuiButton-contained {
+  background: #6953F4;
+  color: #FFFFFF;
+}
+
+.emotion-29.Mui-disabled {
+  opacity: 0.7;
+}
+
+.emotion-31 {
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: inherit;
+}
+
+.emotion-32 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  min-width: 64px;
+  padding: 6px 16px;
+  border-radius: 4px;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: #fff;
+  background-color: #1976d2;
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+  width: 100%;
+  color: #FF4557;
+  padding: 0.75rem;
+  text-transform: capitalize;
+}
+
+.emotion-32::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-32.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-32 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-32:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #1565c0;
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+
+@media (hover: none) {
+  .emotion-32:hover {
+    background-color: #1976d2;
+  }
+}
+
+.emotion-32:active {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+
+.emotion-32.Mui-focusVisible {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+
+.emotion-32.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+.emotion-32.MuiButton-outlined {
+  border-color: #FF4557;
+}
+
+.emotion-32.MuiButton-contained {
+  background: #6953F4;
+  color: #FFFFFF;
+}
+
+.emotion-32.Mui-disabled {
+  opacity: 0.7;
+}
+
+<div>
+  <div
+    class="emotion-0"
+    data-testid="swap-confirm-modal-test"
+  >
+    <div
+      class="swap-confirm-modal-background MuiBox-root emotion-1"
+    />
+    <div
+      class="swap-confirm-modal-container MuiBox-root emotion-1"
+    >
+      <div
+        class="swap-confirm-modal-header MuiBox-root emotion-1"
+      >
+        <h4
+          class="MuiTypography-root MuiTypography-h4 emotion-4"
+        >
+          Review & Confirms
+        </h4>
+        <svg
+          fill="none"
+          height="20"
+          viewBox="0 0 20 20"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            clip-path="url(#clip0_625_48983)"
+          >
+            <path
+              d="M15 5L5 15"
+              stroke="#282828"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.66667"
+            />
+            <path
+              d="M5 5L15 15"
+              stroke="#282828"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.66667"
+            />
+          </g>
+          <defs>
+            <clippath
+              id="clip0_625_48983"
+            >
+              <rect
+                fill="white"
+                height="20"
+                width="20"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </div>
+      <div
+        class="swap-confirm-modal-body MuiBox-root emotion-1"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 emotion-6"
+        >
+          Swapping LSK
+        </p>
+        <div
+          class="swap-confirm-token-amount MuiBox-root emotion-1"
+        >
+          <span
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+          >
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2724%27%20height=%2724%27/%3e"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              data-nimg="intrinsic"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </span>
+          <p
+            class="MuiTypography-root MuiTypography-body2 swap-confirm-amount emotion-8"
+          >
+            1000.00
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 swap-confirm-estimate-amount emotion-8"
+          >
+            ~
+            $88.60
+          </p>
+        </div>
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-arrow-down swap-confirm-arrow"
+          data-icon="arrow-down"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          viewBox="0 0 384 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
+            fill="currentColor"
+          />
+        </svg>
+        <p
+          class="MuiTypography-root MuiTypography-body1 emotion-6"
+        >
+          for 
+          DEX
+        </p>
+        <div
+          class="swap-confirm-token-amount MuiBox-root emotion-1"
+        >
+          <span
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+          >
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2724%27%20height=%2724%27/%3e"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              data-nimg="intrinsic"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </span>
+          <p
+            class="MuiTypography-root MuiTypography-body2 swap-confirm-amount emotion-8"
+          >
+            100.00
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2 swap-confirm-estimate-amount emotion-8"
+          >
+            ~
+            $8.86
+          </p>
+        </div>
+        <div
+          class="transaction-detail MuiBox-root emotion-1"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 transaction-detail-title emotion-6"
+          >
+            Transaction details
+          </p>
+          <div
+            class="transaction-detail-property slippage-tolerance MuiBox-root emotion-1"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 transaction-detail-property-title emotion-8"
+            >
+              Slippage Tolerance 
+              <svg
+                fill="none"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  clip-path="url(#clip0_5_93111)"
+                >
+                  <path
+                    d="M7.9987 14.6673C11.6806 14.6673 14.6654 11.6825 14.6654 8.00065C14.6654 4.31875 11.6806 1.33398 7.9987 1.33398C4.3168 1.33398 1.33203 4.31875 1.33203 8.00065C1.33203 11.6825 4.3168 14.6673 7.9987 14.6673Z"
+                    stroke="#6B7280"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    d="M6.05859 6.00038C6.21533 5.55482 6.5247 5.17912 6.9319 4.9398C7.3391 4.70049 7.81786 4.61301 8.28338 4.69285C8.7489 4.7727 9.17114 5.01473 9.47531 5.37606C9.77949 5.7374 9.94596 6.19473 9.94526 6.66705C9.94526 8.00038 7.94526 8.66705 7.94526 8.66705"
+                    stroke="#6B7280"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    d="M8 11.334H8.00708"
+                    stroke="#6B7280"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.3"
+                  />
+                </g>
+                <defs>
+                  <clippath
+                    id="clip0_5_93111"
+                  >
+                    <rect
+                      fill="white"
+                      height="16"
+                      width="16"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body2 transaction-detail-property-value emotion-8"
+            >
+              0.1
+              %
+            </p>
+          </div>
+          <div
+            class="transaction-detail-property price-impact MuiBox-root emotion-1"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 transaction-detail-property-title emotion-8"
+            >
+              Price Impact 
+              <svg
+                fill="none"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  clip-path="url(#clip0_5_93111)"
+                >
+                  <path
+                    d="M7.9987 14.6673C11.6806 14.6673 14.6654 11.6825 14.6654 8.00065C14.6654 4.31875 11.6806 1.33398 7.9987 1.33398C4.3168 1.33398 1.33203 4.31875 1.33203 8.00065C1.33203 11.6825 4.3168 14.6673 7.9987 14.6673Z"
+                    stroke="#6B7280"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    d="M6.05859 6.00038C6.21533 5.55482 6.5247 5.17912 6.9319 4.9398C7.3391 4.70049 7.81786 4.61301 8.28338 4.69285C8.7489 4.7727 9.17114 5.01473 9.47531 5.37606C9.77949 5.7374 9.94596 6.19473 9.94526 6.66705C9.94526 8.00038 7.94526 8.66705 7.94526 8.66705"
+                    stroke="#6B7280"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    d="M8 11.334H8.00708"
+                    stroke="#6B7280"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.3"
+                  />
+                </g>
+                <defs>
+                  <clippath
+                    id="clip0_5_93111"
+                  >
+                    <rect
+                      fill="white"
+                      height="16"
+                      width="16"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body2 transaction-detail-property-value emotion-8"
+            >
+              &lt;0.21%
+            </p>
+          </div>
+          <div
+            class="transaction-detail-property network-fee MuiBox-root emotion-1"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 transaction-detail-property-title emotion-8"
+            >
+              Network Fee 
+              <svg
+                fill="none"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  clip-path="url(#clip0_5_93111)"
+                >
+                  <path
+                    d="M7.9987 14.6673C11.6806 14.6673 14.6654 11.6825 14.6654 8.00065C14.6654 4.31875 11.6806 1.33398 7.9987 1.33398C4.3168 1.33398 1.33203 4.31875 1.33203 8.00065C1.33203 11.6825 4.3168 14.6673 7.9987 14.6673Z"
+                    stroke="#6B7280"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    d="M6.05859 6.00038C6.21533 5.55482 6.5247 5.17912 6.9319 4.9398C7.3391 4.70049 7.81786 4.61301 8.28338 4.69285C8.7489 4.7727 9.17114 5.01473 9.47531 5.37606C9.77949 5.7374 9.94596 6.19473 9.94526 6.66705C9.94526 8.00038 7.94526 8.66705 7.94526 8.66705"
+                    stroke="#6B7280"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    d="M8 11.334H8.00708"
+                    stroke="#6B7280"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.3"
+                  />
+                </g>
+                <defs>
+                  <clippath
+                    id="clip0_5_93111"
+                  >
+                    <rect
+                      fill="white"
+                      height="16"
+                      width="16"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body2 transaction-detail-property-value emotion-8"
+            >
+              ~$1.72
+            </p>
+          </div>
+          <div
+            class="transaction-detail-property minimum-received MuiBox-root emotion-1"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 transaction-detail-property-title emotion-8"
+            >
+              Minimum Received 
+              <svg
+                fill="none"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  clip-path="url(#clip0_5_93111)"
+                >
+                  <path
+                    d="M7.9987 14.6673C11.6806 14.6673 14.6654 11.6825 14.6654 8.00065C14.6654 4.31875 11.6806 1.33398 7.9987 1.33398C4.3168 1.33398 1.33203 4.31875 1.33203 8.00065C1.33203 11.6825 4.3168 14.6673 7.9987 14.6673Z"
+                    stroke="#6B7280"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    d="M6.05859 6.00038C6.21533 5.55482 6.5247 5.17912 6.9319 4.9398C7.3391 4.70049 7.81786 4.61301 8.28338 4.69285C8.7489 4.7727 9.17114 5.01473 9.47531 5.37606C9.77949 5.7374 9.94596 6.19473 9.94526 6.66705C9.94526 8.00038 7.94526 8.66705 7.94526 8.66705"
+                    stroke="#6B7280"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    d="M8 11.334H8.00708"
+                    stroke="#6B7280"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.3"
+                  />
+                </g>
+                <defs>
+                  <clippath
+                    id="clip0_5_93111"
+                  >
+                    <rect
+                      fill="white"
+                      height="16"
+                      width="16"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body2 transaction-detail-property-value emotion-8"
+            >
+              100.00
+               
+              DEX
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="swap-confirm-modal-footer MuiBox-root emotion-1"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium swap-confirm-modal-cancel emotion-29"
+          data-testid="swap-confirm-cancel-test"
+          tabindex="0"
+          type="button"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 emotion-6"
+          >
+            Cancel
+          </p>
+          <span
+            class="MuiTouchRipple-root emotion-31"
+          />
+        </button>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium swap-confirm-modal-confirm emotion-32"
+          data-testid="swap-confirm-modal-button-test"
+          tabindex="0"
+          type="button"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 emotion-6"
+          >
+            Go to Confirm
+          </p>
+          <span
+            class="MuiTouchRipple-root emotion-31"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

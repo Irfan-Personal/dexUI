@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component checks if the component matches the snapshot 1`] = `
+.emotion-0 {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  border-top: 1px solid #D9D8F8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 4rem;
+  background: #FBFBFB;
+}
+
+.emotion-0 .footer-menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+}
+
+.emotion-0 .footer-menu .footer-menu-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: 0;
+  height: 100%;
+  color: #6B7280;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+
+.emotion-0 .footer-menu .footer-menu-item:hover {
+  opacity: 0.85;
+}
+
+.emotion-0 .footer-menu .footer-menu-item.active {
+  border-top: 2.5px solid #6953F4;
+  color: #6953F4;
+}
+
+.emotion-0 .footer-menu .footer-menu-item.active h5 {
+  font-weight: 600;
+}
+
+.emotion-1 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: -8px;
+  width: calc(100% + 8px);
+  margin-left: -8px;
+}
+
+.emotion-1>.MuiGrid-item {
+  padding-top: 8px;
+}
+
+.emotion-1>.MuiGrid-item {
+  padding-left: 8px;
+}
+
+.emotion-2 {
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-basis: 25%;
+  -ms-flex-preferred-size: 25%;
+  flex-basis: 25%;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  max-width: 25%;
+}
+
+@media (min-width:576px) {
+  .emotion-2 {
+    -webkit-flex-basis: 25%;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 25%;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-2 {
+    -webkit-flex-basis: 25%;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 25%;
+  }
+}
+
+@media (min-width:1024px) {
+  .emotion-2 {
+    -webkit-flex-basis: 25%;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 25%;
+  }
+}
+
+@media (min-width:1440px) {
+  .emotion-2 {
+    -webkit-flex-basis: 25%;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 25%;
+  }
+}
+
+.emotion-3 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0em;
+}
+
+<div>
+  <div
+    class="footer-container emotion-0"
+    data-testid="footer"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 footer-menu emotion-1"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 footer-menu-item emotion-2"
+        href="/swap"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5 emotion-3"
+        >
+          Swap
+        </h5>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 footer-menu-item emotion-2"
+        href="/pool"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5 emotion-3"
+        >
+          Pool
+        </h5>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 footer-menu-item emotion-2"
+        href="/info"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5 emotion-3"
+        >
+          Info
+        </h5>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 footer-menu-item emotion-2"
+        href="/governance"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5 emotion-3"
+        >
+          Governance
+        </h5>
+      </div>
+    </div>
+  </div>
+</div>
+`;

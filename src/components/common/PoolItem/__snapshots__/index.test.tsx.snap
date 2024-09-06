@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PoolItem component checks if the component matches the snapshot 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.emotion-0 .pool-item-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #6953F4;
+  line-height: 2rem;
+}
+
+.emotion-0 .pool-item-left .pool-item-token1 {
+  width: 2rem;
+  height: 2rem;
+}
+
+.emotion-0 .pool-item-left .pool-item-token2 {
+  width: 2rem;
+  height: 2rem;
+  margin-left: -1rem!important;
+  margin-right: 0.75rem;
+}
+
+.emotion-0 .pool-item-left .pool-item-rate {
+  margin-left: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  background: #E4EBF9;
+}
+
+.emotion-0 .pool-item-left .pool-item-rate p {
+  font-size: 0.75rem;
+}
+
+.emotion-1 {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.01071em;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body2 pool-item-title emotion-1"
+    >
+      Select a pool ID
+    </p>
+  </div>
+</div>
+`;

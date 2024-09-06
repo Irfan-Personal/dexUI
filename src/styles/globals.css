@@ -1,0 +1,78 @@
+:root {
+  font-size: 16px;
+}
+
+html,
+body,
+#__next {
+  padding: 0 !important;
+  margin: 0;
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a,
+.btn,
+button,
+span,
+p,
+i,
+input,
+select,
+textarea,
+li,
+img,
+svg path,
+*::after,
+*::before,
+.transition-3,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  transition: all 0.3s ease-out 0s;
+}
+
+span,
+p,
+a,
+li.MuiMenuItem-root,
+label,
+label.MuiFormLabel-root,
+span.MuiTypography-root,
+p.MuiTypography-root,
+button.MuiButton-root,
+button.MuiButtonBase-root,
+.MuiInput-root,
+.MuiTableCell-root {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1.MuiTypography-root,
+h2.MuiTypography-root,
+h3.MuiTypography-root,
+h4.MuiTypography-root,
+h5.MuiTypography-root,
+h6.MuiTypography-root {
+  font-family: 'Gilroy', sans-serif;
+}
+
+nextjs-portal {
+  display: none;
+}

@@ -1,0 +1,369 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component checks if the component matches the snapshot 1`] = `
+.emotion-0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  vertical-align: top;
+  position: relative;
+}
+
+.emotion-0 .MuiInputLabel-root {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: unset;
+  color: #282828!important;
+  font-size: 0.875rem;
+  line-height: 1.124rem;
+  font-weight: 400;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transform: none;
+  -ms-transform: none;
+}
+
+.emotion-0 .MuiInputLabel-root svg {
+  cursor: pointer;
+  margin-left: 0.25rem;
+}
+
+.emotion-0 .MuiInputLabel-root svg path {
+  stroke: #6B7280!important;
+}
+
+.emotion-0 .MuiInputLabel-root span {
+  color: #6B7280;
+  margin-left: 0.25rem;
+}
+
+.emotion-0 .MuiInputBase-root {
+  padding: 0.75rem 1rem 0.75rem 2.5rem;
+  border-radius: 0.25rem;
+  color: #282828;
+  border: 0.5px solid #E6E6E6;
+  background: unset;
+  -webkit-animation-duration: 1s!important;
+  animation-duration: 1s!important;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+
+.emotion-0 .MuiInputBase-root input {
+  padding: 0;
+}
+
+.emotion-0 .MuiInputBase-root fieldset {
+  border: none;
+}
+
+.emotion-0 .MuiInputBase-root:before {
+  content: none;
+}
+
+.emotion-0 .MuiInputBase-root:after {
+  content: none;
+}
+
+.emotion-0 .MuiInputBase-root:hover {
+  border: 1px solid #A196F6;
+}
+
+.emotion-0 .MuiInputBase-root:focus-within {
+  border: 1px solid #6953F4;
+}
+
+.emotion-0 .MuiFormHelperText-root {
+  color: #FF4557;
+  margin: 0.5rem 0 0 0;
+}
+
+.emotion-0 .input-length-counter {
+  position: absolute;
+  bottom: -1.5rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: end;
+  justify-content: end;
+  color: #6B7280;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.emotion-0 .link-icon {
+  position: absolute;
+  left: 1rem;
+  top: 2.625rem;
+}
+
+.emotion-0 .link-icon:hover {
+  cursor: pointer;
+}
+
+.emotion-0 .link-icon path {
+  stroke: #6B7280;
+}
+
+.emotion-0 .link-icon.active path {
+  stroke: #6953F4;
+}
+
+.emotion-1 {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1rem;
+  line-height: 1.4375em;
+  font-weight: 500;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.00938em;
+  padding: 0;
+  position: relative;
+  display: block;
+  transform-origin: top left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: calc(133% - 32px);
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform: translate(14px, -9px) scale(0.75);
+  -moz-transform: translate(14px, -9px) scale(0.75);
+  -ms-transform: translate(14px, -9px) scale(0.75);
+  transform: translate(14px, -9px) scale(0.75);
+  -webkit-transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,-webkit-transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,max-width 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+  transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,max-width 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+  z-index: 1;
+  pointer-events: auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.emotion-1.Mui-focused {
+  color: #1976d2;
+}
+
+.emotion-1.Mui-disabled {
+  color: rgba(0, 0, 0, 0.38);
+}
+
+.emotion-1.Mui-error {
+  color: #d32f2f;
+}
+
+.emotion-2 {
+  font-size: 1rem;
+  line-height: 1.4375em;
+  font-weight: 500;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.00938em;
+  color: rgba(0, 0, 0, 0.87);
+  box-sizing: border-box;
+  position: relative;
+  cursor: text;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-2.Mui-disabled {
+  color: rgba(0, 0, 0, 0.38);
+  cursor: default;
+}
+
+.emotion-3 {
+  font: inherit;
+  letter-spacing: inherit;
+  color: currentColor;
+  padding: 4px 0 5px;
+  border: 0;
+  box-sizing: content-box;
+  background: none;
+  height: 1.4375em;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  min-width: 0;
+  width: 100%;
+  -webkit-animation-name: mui-auto-fill-cancel;
+  animation-name: mui-auto-fill-cancel;
+  -webkit-animation-duration: 10ms;
+  animation-duration: 10ms;
+  color: #6953F4;
+  -webkit-text-decoration: unset;
+  text-decoration: unset;
+}
+
+.emotion-3::-webkit-input-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  -webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-3::-moz-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  -webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-3:-ms-input-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  -webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-3::-ms-input-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  -webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-3:focus {
+  outline: 0;
+}
+
+.emotion-3:invalid {
+  box-shadow: none;
+}
+
+.emotion-3::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-3::-webkit-input-placeholder {
+  opacity: 0!important;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-3::-moz-placeholder {
+  opacity: 0!important;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-3:-ms-input-placeholder {
+  opacity: 0!important;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-3::-ms-input-placeholder {
+  opacity: 0!important;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-3:focus::-webkit-input-placeholder {
+  opacity: 0.42;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-3:focus::-moz-placeholder {
+  opacity: 0.42;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-3:focus:-ms-input-placeholder {
+  opacity: 0.42;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-3:focus::-ms-input-placeholder {
+  opacity: 0.42;
+}
+
+.emotion-3.Mui-disabled {
+  opacity: 1;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0.38);
+}
+
+.emotion-3:-webkit-autofill {
+  -webkit-animation-duration: 5000s;
+  animation-duration: 5000s;
+  -webkit-animation-name: mui-auto-fill;
+  animation-name: mui-auto-fill;
+}
+
+.emotion-3::-webkit-input-placeholder {
+  opacity: 1;
+  color: #6B7280;
+}
+
+.emotion-3::-moz-placeholder {
+  opacity: 1;
+  color: #6B7280;
+}
+
+.emotion-3:-ms-input-placeholder {
+  opacity: 1;
+  color: #6B7280;
+}
+
+.emotion-3::placeholder {
+  opacity: 1;
+  color: #6B7280;
+}
+
+<div>
+  <div
+    class="MuiFormControl-root emotion-0"
+  >
+    <label
+      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined emotion-1"
+      data-shrink="true"
+    />
+    <div
+      class="MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl emotion-2"
+    >
+      <input
+        aria-invalid="false"
+        class="MuiInputBase-input emotion-3"
+        type="text"
+        value=""
+      />
+    </div>
+    <svg
+      class="link-icon"
+      fill="none"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M9.99935 4.66699H11.9993C12.4371 4.66699 12.8705 4.75321 13.275 4.92073C13.6794 5.08824 14.0468 5.33377 14.3564 5.6433C14.6659 5.95283 14.9114 6.3203 15.0789 6.72471C15.2465 7.12913 15.3327 7.56259 15.3327 8.00033C15.3327 8.43806 15.2465 8.87152 15.0789 9.27594C14.9114 9.68036 14.6659 10.0478 14.3564 10.3573C14.0468 10.6669 13.6794 10.9124 13.275 11.0799C12.8705 11.2474 12.4371 11.3337 11.9993 11.3337H9.99935M5.99935 11.3337H3.99935C3.56161 11.3337 3.12816 11.2474 2.72374 11.0799C2.31932 10.9124 1.95186 10.6669 1.64233 10.3573C1.01721 9.73223 0.666016 8.88438 0.666016 8.00033C0.666016 7.11627 1.01721 6.26842 1.64233 5.6433C2.26745 5.01818 3.11529 4.66699 3.99935 4.66699H5.99935"
+        stroke="#6953F4"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.3"
+      />
+      <path
+        d="M5.33398 8H10.6673"
+        stroke="#6953F4"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.3"
+      />
+    </svg>
+  </div>
+</div>
+`;

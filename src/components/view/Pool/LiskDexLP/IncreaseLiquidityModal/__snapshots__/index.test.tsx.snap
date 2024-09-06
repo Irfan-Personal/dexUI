@@ -1,0 +1,816 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IncreaseLiquidityModal component checks if the component matches the snapshot 1`] = `
+.emotion-0 .increase-liquidity-modal-background {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 30;
+}
+
+.emotion-0 .increase-liquidity-modal-container {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-bottom: 10rem;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 30.5rem;
+  border-radius: 0.5rem;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);
+  z-index: 30;
+  padding: 1.5rem;
+}
+
+@media (max-width:575.95px) {
+  .emotion-0 .increase-liquidity-modal-container {
+    width: 100%;
+  }
+}
+
+.emotion-0 .increase-liquidity-modal-container .increase-liquidity-modal-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-0 .increase-liquidity-modal-container .increase-liquidity-modal-title .MuiIconButton-root svg path {
+  stroke: #282828;
+}
+
+.emotion-0 .increase-liquidity-modal-container .increase-liquidity-modal-summmary {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.emotion-0 .increase-liquidity-modal-container .increase-liquidity-modal-summmary .summary-token-name {
+  margin-left: 0.5rem;
+}
+
+.emotion-0 .increase-liquidity-modal-container .increase-liquidity-modal-summmary .summary-rate {
+  background: #D9D8F8;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+}
+
+.emotion-0 .increase-liquidity-modal-container .increase-liquidity-modal-summmary .summary-rate p {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.emotion-0 .increase-liquidity-modal-container .increase-liquidity-deposit-amounts {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.emotion-0 .increase-liquidity-modal-container .increase-liquidity-deposit-amounts .MuiFormControl-root {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.emotion-0 .increase-liquidity-modal-container .increase-liquidity-deposit-amounts .MuiFormControl-root .MuiInputBase-root {
+  height: 3.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: #FAFAFC;
+}
+
+.emotion-0 .increase-liquidity-modal-container .increase-liquidity-deposit-amounts .MuiFormControl-root h6 {
+  margin-left: 0.5rem;
+}
+
+.emotion-0 .increase-liquidity-modal-container .increase-liquidity-deposit-amounts .MuiFormControl-root input {
+  text-align: right;
+}
+
+.emotion-4 {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.00735em;
+}
+
+.emotion-5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 1.5rem;
+  padding: 8px;
+  border-radius: 50%;
+  overflow: visible;
+  color: rgba(0, 0, 0, 0.54);
+  -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-5::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-5.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-5 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-5:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+@media (hover: none) {
+  .emotion-5:hover {
+    background-color: transparent;
+  }
+}
+
+.emotion-5.Mui-disabled {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.emotion-6 {
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: inherit;
+}
+
+.emotion-8 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  font-weight: 500;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.00938em;
+}
+
+.emotion-10 {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.01071em;
+}
+
+.emotion-13 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  vertical-align: top;
+  position: relative;
+}
+
+.emotion-13 .MuiInputLabel-root {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: unset;
+  color: #282828!important;
+  font-size: 0.875rem;
+  line-height: 1.124rem;
+  font-weight: 400;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transform: none;
+  -ms-transform: none;
+  margin-bottom: 0.5rem;
+}
+
+.emotion-13 .MuiInputLabel-root svg {
+  cursor: pointer;
+  margin-left: 0.25rem;
+}
+
+.emotion-13 .MuiInputLabel-root svg path {
+  stroke: #6B7280!important;
+}
+
+.emotion-13 .MuiInputBase-root {
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+  color: #282828;
+  border: 0.5px solid #E6E6E6;
+  background: unset;
+  -webkit-animation-duration: 1s!important;
+  animation-duration: 1s!important;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+
+.emotion-13 .MuiInputBase-root input {
+  padding: 0;
+}
+
+.emotion-13 .MuiInputBase-root fieldset {
+  border: none;
+}
+
+.emotion-13 .MuiInputBase-root:before {
+  content: none;
+}
+
+.emotion-13 .MuiInputBase-root:after {
+  content: none;
+}
+
+.emotion-13 .MuiInputBase-root:hover {
+  border: 1px solid #A196F6;
+}
+
+.emotion-13 .MuiInputBase-root:focus-within {
+  border: 1px solid #6953F4;
+}
+
+.emotion-13 .MuiFormHelperText-root {
+  color: #FF4557;
+  margin: 0.5rem 0 0 0;
+}
+
+.emotion-13 .MuiFormHelperText-root p {
+  text-align: right;
+}
+
+.emotion-13 .input-length-counter {
+  position: absolute;
+  bottom: -1.5rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: end;
+  justify-content: end;
+  color: #6B7280;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.emotion-13 input::-webkit-outer-spin-button,
+.emotion-13 input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  display: none;
+}
+
+.emotion-14 {
+  font-size: 1rem;
+  line-height: 1.4375em;
+  font-weight: 500;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.00938em;
+  color: rgba(0, 0, 0, 0.87);
+  box-sizing: border-box;
+  position: relative;
+  cursor: text;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-14.Mui-disabled {
+  color: rgba(0, 0, 0, 0.38);
+  cursor: default;
+}
+
+.emotion-15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 0.01em;
+  max-height: 2em;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  color: rgba(0, 0, 0, 0.54);
+  margin-right: 8px;
+}
+
+.emotion-16 {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.00938em;
+}
+
+.emotion-17 {
+  font: inherit;
+  letter-spacing: inherit;
+  color: currentColor;
+  padding: 4px 0 5px;
+  border: 0;
+  box-sizing: content-box;
+  background: none;
+  height: 1.4375em;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  min-width: 0;
+  width: 100%;
+  -webkit-animation-name: mui-auto-fill-cancel;
+  animation-name: mui-auto-fill-cancel;
+  -webkit-animation-duration: 10ms;
+  animation-duration: 10ms;
+}
+
+.emotion-17::-webkit-input-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  -webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-17::-moz-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  -webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-17:-ms-input-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  -webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-17::-ms-input-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  -webkit-transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-17:focus {
+  outline: 0;
+}
+
+.emotion-17:invalid {
+  box-shadow: none;
+}
+
+.emotion-17::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-17::-webkit-input-placeholder {
+  opacity: 0!important;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-17::-moz-placeholder {
+  opacity: 0!important;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-17:-ms-input-placeholder {
+  opacity: 0!important;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-17::-ms-input-placeholder {
+  opacity: 0!important;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-17:focus::-webkit-input-placeholder {
+  opacity: 0.42;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-17:focus::-moz-placeholder {
+  opacity: 0.42;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-17:focus:-ms-input-placeholder {
+  opacity: 0.42;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .emotion-17:focus::-ms-input-placeholder {
+  opacity: 0.42;
+}
+
+.emotion-17.Mui-disabled {
+  opacity: 1;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0.38);
+}
+
+.emotion-17:-webkit-autofill {
+  -webkit-animation-duration: 5000s;
+  animation-duration: 5000s;
+  -webkit-animation-name: mui-auto-fill;
+  animation-name: mui-auto-fill;
+}
+
+.emotion-17::-webkit-input-placeholder {
+  opacity: 1;
+  color: #6B7280;
+}
+
+.emotion-17::-moz-placeholder {
+  opacity: 1;
+  color: #6B7280;
+}
+
+.emotion-17:-ms-input-placeholder {
+  opacity: 1;
+  color: #6B7280;
+}
+
+.emotion-17::placeholder {
+  opacity: 1;
+  color: #6B7280;
+}
+
+.emotion-23 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  min-width: 64px;
+  padding: 6px 16px;
+  border-radius: 4px;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: #fff;
+  background-color: #1976d2;
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+  width: 100%;
+  color: #FF4557;
+  padding: 0.75rem;
+  text-transform: capitalize;
+}
+
+.emotion-23::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-23.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-23 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-23:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #1565c0;
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+
+@media (hover: none) {
+  .emotion-23:hover {
+    background-color: #1976d2;
+  }
+}
+
+.emotion-23:active {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+
+.emotion-23.Mui-focusVisible {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+
+.emotion-23.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+.emotion-23.MuiButton-outlined {
+  border-color: #FF4557;
+}
+
+.emotion-23.MuiButton-contained {
+  background: #6953F4;
+  color: #FFFFFF;
+}
+
+.emotion-23.Mui-disabled {
+  opacity: 0.7;
+}
+
+<div>
+  <div
+    class="emotion-0"
+    data-testid="increase-liquidity-modal-test"
+  >
+    <div
+      class="increase-liquidity-modal-background MuiBox-root emotion-1"
+    />
+    <div
+      class="increase-liquidity-modal-container MuiBox-root emotion-1"
+    >
+      <div
+        class="increase-liquidity-modal-title MuiBox-root emotion-1"
+      >
+        <h4
+          class="MuiTypography-root MuiTypography-h4 emotion-4"
+        >
+          Increase liquidity
+        </h4>
+        <button
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium emotion-5"
+          data-testid="increase-liquidity-modal-cancel-test"
+          tabindex="0"
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="20"
+            viewBox="0 0 20 20"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clip-path="url(#clip0_625_48983)"
+            >
+              <path
+                d="M15 5L5 15"
+                stroke="#282828"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.66667"
+              />
+              <path
+                d="M5 5L15 15"
+                stroke="#282828"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.66667"
+              />
+            </g>
+            <defs>
+              <clippath
+                id="clip0_625_48983"
+              >
+                <rect
+                  fill="white"
+                  height="20"
+                  width="20"
+                />
+              </clippath>
+            </defs>
+          </svg>
+          <span
+            class="MuiTouchRipple-root emotion-6"
+          />
+        </button>
+      </div>
+      <div
+        class="increase-liquidity-modal-summmary MuiBox-root emotion-1"
+      >
+        <img
+          alt="DEX"
+          height="24"
+          src="https://raw.githubusercontent.com/LiskHQ/app-registry/main/devnet/Dex/images/tokens/dex.png"
+          style="border-radius: 100%;"
+          width="24"
+        />
+        <img
+          alt="ENVT"
+          height="24"
+          src="https://raw.githubusercontent.com/LiskHQ/app-registry/main/devnet/Enevti/images/tokens/enevti.png"
+          style="border-radius: 100%;"
+          width="24"
+        />
+        <p
+          class="MuiTypography-root MuiTypography-body1 summary-token-name emotion-8"
+        >
+          DEX
+           / 
+          ENVT
+        </p>
+        <div
+          class="summary-rate MuiBox-root emotion-1"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body2 emotion-10"
+          >
+            0.05%
+          </p>
+        </div>
+      </div>
+      <div
+        class="increase-liquidity-deposit-amounts MuiBox-root emotion-1"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 deposit-amount-title emotion-10"
+        >
+          Deposit amounts
+        </p>
+        <div
+          class="MuiFormControl-root emotion-13"
+        >
+          <div
+            class="MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart emotion-14"
+            data-testid="increase-liquidity-token1-input-test"
+            variant="outlined"
+          >
+            <div
+              class="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-outlined MuiInputAdornment-sizeMedium emotion-15"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+              <img
+                alt="DEX"
+                height="40"
+                src="https://raw.githubusercontent.com/LiskHQ/app-registry/main/devnet/Dex/images/tokens/dex.png"
+                style="border-radius: 100%;"
+                width="40"
+              />
+              <h6
+                class="MuiTypography-root MuiTypography-subtitle1 emotion-16"
+              >
+                DEX
+              </h6>
+            </div>
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input MuiInputBase-inputAdornedStart emotion-17"
+              type="number"
+              value="0"
+            />
+          </div>
+        </div>
+        <div
+          class="MuiFormControl-root emotion-13"
+        >
+          <div
+            class="MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart emotion-14"
+            data-testid="increase-liquidity-token2-input-test"
+            variant="outlined"
+          >
+            <div
+              class="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-outlined MuiInputAdornment-sizeMedium emotion-15"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+              <img
+                alt="ENVT"
+                height="40"
+                src="https://raw.githubusercontent.com/LiskHQ/app-registry/main/devnet/Enevti/images/tokens/enevti.png"
+                style="border-radius: 100%;"
+                width="40"
+              />
+              <h6
+                class="MuiTypography-root MuiTypography-subtitle1 emotion-16"
+              >
+                ENVT
+              </h6>
+            </div>
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input MuiInputBase-inputAdornedStart emotion-17"
+              type="number"
+              value="0"
+            />
+          </div>
+        </div>
+      </div>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium Mui-disabled MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium increase-liquidity-modal-confirm emotion-23"
+        data-testid="increase-liquidity-modal-preview-test"
+        disabled=""
+        tabindex="-1"
+        type="button"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 emotion-8"
+        >
+          Preview
+        </p>
+      </button>
+    </div>
+  </div>
+</div>
+`;

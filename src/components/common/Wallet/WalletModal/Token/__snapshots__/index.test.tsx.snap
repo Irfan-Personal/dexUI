@@ -1,0 +1,318 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Token component checks if the component matches the snapshot 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 38.75rem;
+}
+
+.emotion-0 .token-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #282828;
+  width: 100%;
+  padding: 1rem;
+}
+
+.emotion-0 .token-header .token-name {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-0 .token-header .token-name svg {
+  color: #6953F4;
+  margin-right: 0.25rem;
+}
+
+.emotion-0 .token-header h4 {
+  font-weight: 500;
+}
+
+.emotion-0 .token-header .MuiIconButton-root svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.emotion-0 .token-main {
+  margin-top: 2rem;
+}
+
+.emotion-0 .token-main p {
+  color: #6B7280;
+  text-align: center;
+}
+
+.emotion-0 .token-main h2 {
+  font-weight: 500;
+  margin-top: 0.125rem;
+  text-align: center;
+}
+
+.emotion-0 .token-main .token-image {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.emotion-2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 1.5rem;
+  padding: 8px;
+  border-radius: 50%;
+  overflow: visible;
+  color: rgba(0, 0, 0, 0.54);
+  -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-2::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-2.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-2 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-2:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+@media (hover: none) {
+  .emotion-2:hover {
+    background-color: transparent;
+  }
+}
+
+.emotion-2.Mui-disabled {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.emotion-3 {
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: inherit;
+}
+
+.emotion-5 {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.00735em;
+}
+
+.emotion-10 {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.01071em;
+}
+
+.emotion-11 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  line-height: 1.2;
+  letter-spacing: -0.00833em;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="token-header MuiBox-root emotion-1"
+    >
+      <button
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium emotion-2"
+        data-testid="token-back-test"
+        tabindex="0"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-arrow-left "
+          data-icon="arrow-left"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
+            fill="currentColor"
+          />
+        </svg>
+        <span
+          class="MuiTouchRipple-root emotion-3"
+        />
+      </button>
+      <div
+        class="token-name MuiBox-root emotion-1"
+      >
+        <svg
+          fill="none"
+          height="20"
+          viewBox="0 0 20 20"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M3.29102 15.5839L5.58268 16.0839L6.79102 18.1256C6.90213 18.3061 7.0549 18.4242 7.24935 18.4797C7.44379 18.5353 7.63824 18.5284 7.83268 18.4589L9.99935 17.5422L12.166 18.4589C12.3605 18.5284 12.5549 18.5353 12.7493 18.4797C12.9438 18.4242 13.0966 18.3061 13.2077 18.1256L14.416 16.0839L16.7077 15.5839C16.916 15.5428 17.0827 15.4353 17.2077 15.2614C17.3327 15.0875 17.3813 14.8964 17.3535 14.6881L17.1243 12.3339L18.6868 10.5422C18.8257 10.3895 18.8952 10.2089 18.8952 10.0006C18.8952 9.79225 18.8257 9.61169 18.6868 9.45891L17.1243 7.66725L17.3535 5.31308C17.3813 5.10419 17.3327 4.91308 17.2077 4.73975C17.0827 4.56641 16.916 4.45891 16.7077 4.41725L14.416 3.91725L13.2077 1.87558C13.0966 1.69502 12.9438 1.57697 12.7493 1.52141C12.5549 1.46586 12.3605 1.4728 12.166 1.54225L9.99935 2.45891L7.83268 1.54225C7.63824 1.4728 7.44379 1.46586 7.24935 1.52141C7.0549 1.57697 6.90213 1.69502 6.79102 1.87558L5.58268 3.91725L3.29102 4.41725C3.08268 4.45836 2.91602 4.56586 2.79102 4.73975C2.66602 4.91363 2.6174 5.10475 2.64518 5.31308L2.87435 7.66725L1.31185 9.45891C1.17296 9.61169 1.10352 9.79225 1.10352 10.0006C1.10352 10.2089 1.17296 10.3895 1.31185 10.5422L2.87435 12.3339L2.64518 14.6881C2.6174 14.8959 2.66602 15.0867 2.79102 15.2606C2.91602 15.4345 3.08268 15.5422 3.29102 15.5839Z"
+            fill="#6953F4"
+            fill-rule="evenodd"
+          />
+          <path
+            d="M13.3327 7.5L8.74935 12.0833L6.66602 10"
+            stroke="white"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.3"
+          />
+        </svg>
+        <h4
+          class="MuiTypography-root MuiTypography-h4 emotion-5"
+        >
+          Dex
+        </h4>
+      </div>
+      <button
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium emotion-2"
+        tabindex="0"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-up-right-from-square "
+          data-icon="up-right-from-square"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V32c0-17.7-14.3-32-32-32H352zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"
+            fill="currentColor"
+          />
+        </svg>
+        <span
+          class="MuiTouchRipple-root emotion-3"
+        />
+      </button>
+    </div>
+    <div
+      class="token-main MuiBox-root emotion-1"
+    >
+      <div
+        class="token-image MuiBox-root emotion-1"
+      >
+        <img
+          alt="DEX"
+          height="40"
+          src="https://raw.githubusercontent.com/LiskHQ/app-registry/main/devnet/Dex/images/tokens/dex.png"
+          style="border-radius: 100%;"
+          width="40"
+        />
+      </div>
+      <p
+        class="MuiTypography-root MuiTypography-body2 emotion-10"
+      >
+        $
+         
+        100
+      </p>
+      <h2
+        class="MuiTypography-root MuiTypography-h2 emotion-11"
+      >
+        1000
+         
+        DEX
+      </h2>
+    </div>
+  </div>
+</div>
+`;

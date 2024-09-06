@@ -1,0 +1,705 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout component checks if the withLayout component matches the snapshot 1`] = `
+.emotion-0 {
+  width: 100%;
+  margin-left: auto;
+  box-sizing: border-box;
+  margin-right: auto;
+  display: block;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+}
+
+@media (min-width:576px) {
+  .emotion-0 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (min-width:1440px) {
+  .emotion-0 {
+    max-width: 1440px;
+  }
+}
+
+.emotion-1 {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 30;
+  border-bottom: 1px solid #D9D8F8;
+  background: #FBFBFB;
+}
+
+.emotion-1 .header-logo {
+  fill: #6953F4;
+}
+
+.emotion-1 .header-container {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 4.25rem;
+  padding: 0 1.5rem;
+}
+
+@media (max-width:575.95px) {
+  .emotion-1 .header-container {
+    padding: 0 1rem;
+  }
+}
+
+.emotion-1 .header-container .header-menu {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-1 .header-container .header-menu .header-menu-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  color: #6B7280;
+  font-weight: 500;
+  margin-right: 3rem;
+  cursor: pointer;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+
+.emotion-1 .header-container .header-menu .header-menu-item:hover {
+  opacity: 0.85;
+}
+
+.emotion-1 .header-container .header-menu .header-menu-item.active {
+  border-bottom: 2.5px solid #6953F4;
+  color: #6953F4;
+}
+
+.emotion-1 .header-container .header-menu .header-menu-item.active h5 {
+  font-weight: 600;
+}
+
+@media (max-width:1023.95px) {
+  .emotion-1 .header-container .header-menu .header-menu-item {
+    display: none;
+  }
+}
+
+.emotion-1 .header-container .header-actions {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-1 .header-container .header-actions .header-menu-list-button {
+  margin-left: 0.5rem;
+  color: #282828;
+}
+
+.emotion-2 {
+  width: 100%;
+  margin-left: auto;
+  box-sizing: border-box;
+  margin-right: auto;
+  display: block;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media (min-width:576px) {
+  .emotion-2 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (min-width:1440px) {
+  .emotion-2 {
+    max-width: 1440px;
+  }
+}
+
+.emotion-5 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0em;
+}
+
+.emotion-13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-13 .header-menu-chain>.MuiOutlinedInput-root {
+  width: 10rem;
+  background: #F2F5F9;
+  border: 0.5px solid #EEF0F8;
+  border-radius: 0.75rem;
+  margin-left: 2rem;
+}
+
+.emotion-13 .header-menu-chain>.MuiOutlinedInput-root>.MuiSelect-select {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.75rem 0.75rem 0.75rem 0.5rem!important;
+}
+
+.emotion-13 .header-menu-chain>.MuiOutlinedInput-root p {
+  color: #282828;
+}
+
+.emotion-13 .header-menu-chain>.MuiOutlinedInput-root svg {
+  color: #282828;
+  margin-right: 0.25rem;
+}
+
+.emotion-13 .header-menu-chain>.MuiOutlinedInput-root svg path {
+  fill: #6953F4;
+}
+
+.emotion-13 .header-menu-chain>.MuiOutlinedInput-root fieldset {
+  border: none;
+}
+
+@media (max-width:1023.95px) {
+  .emotion-13 .header-menu-chain>.MuiOutlinedInput-root {
+    display: none;
+  }
+}
+
+.emotion-13 .header-menu-wallet {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #F2F5F9;
+  border: 0.5px solid #EEF0F8;
+  border-radius: 0.75rem;
+  height: 3rem;
+  padding: 0.125rem 0.5rem 0.125rem 0.5rem;
+  margin-left: 0.75rem;
+  color: #282828;
+}
+
+.emotion-13 .header-menu-wallet:hover {
+  cursor: pointer;
+}
+
+.emotion-13 .header-menu-wallet.open {
+  background: #6953F4;
+  color: #FFFFFF;
+}
+
+.emotion-13 .header-menu-wallet h5 {
+  margin-left: 0.5rem;
+}
+
+.emotion-13 .header-menu-wallet svg {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.emotion-13 .wallet-connect-button {
+  border-radius: 0.75rem;
+  padding: 0.75rem 1.25rem;
+  box-shadow: none;
+}
+
+.emotion-13 .wallet-connect-button.open {
+  background: #E7E9F9;
+  color: #6953F4;
+}
+
+.emotion-14 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  min-width: 64px;
+  padding: 6px 16px;
+  border-radius: 4px;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: #fff;
+  background-color: #1976d2;
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+  width: 100%;
+  color: #FF4557;
+  padding: 0.75rem;
+  text-transform: capitalize;
+}
+
+.emotion-14::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-14.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-14 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-14:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #1565c0;
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+
+@media (hover: none) {
+  .emotion-14:hover {
+    background-color: #1976d2;
+  }
+}
+
+.emotion-14:active {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+
+.emotion-14.Mui-focusVisible {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+
+.emotion-14.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+.emotion-14.MuiButton-outlined {
+  border-color: #FF4557;
+}
+
+.emotion-14.MuiButton-contained {
+  background: #6953F4;
+  color: #FFFFFF;
+}
+
+.emotion-14.Mui-disabled {
+  opacity: 0.7;
+}
+
+.emotion-15 {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.01071em;
+}
+
+.emotion-16 {
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: inherit;
+}
+
+.emotion-17 {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  border-top: 1px solid #D9D8F8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 4rem;
+  background: #FBFBFB;
+}
+
+.emotion-17 .footer-menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+}
+
+.emotion-17 .footer-menu .footer-menu-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: 0;
+  height: 100%;
+  color: #6B7280;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+
+.emotion-17 .footer-menu .footer-menu-item:hover {
+  opacity: 0.85;
+}
+
+.emotion-17 .footer-menu .footer-menu-item.active {
+  border-top: 2.5px solid #6953F4;
+  color: #6953F4;
+}
+
+.emotion-17 .footer-menu .footer-menu-item.active h5 {
+  font-weight: 600;
+}
+
+.emotion-18 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: -8px;
+  width: calc(100% + 8px);
+  margin-left: -8px;
+}
+
+.emotion-18>.MuiGrid-item {
+  padding-top: 8px;
+}
+
+.emotion-18>.MuiGrid-item {
+  padding-left: 8px;
+}
+
+.emotion-19 {
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-basis: 25%;
+  -ms-flex-preferred-size: 25%;
+  flex-basis: 25%;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  max-width: 25%;
+}
+
+@media (min-width:576px) {
+  .emotion-19 {
+    -webkit-flex-basis: 25%;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 25%;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-19 {
+    -webkit-flex-basis: 25%;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 25%;
+  }
+}
+
+@media (min-width:1024px) {
+  .emotion-19 {
+    -webkit-flex-basis: 25%;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 25%;
+  }
+}
+
+@media (min-width:1440px) {
+  .emotion-19 {
+    -webkit-flex-basis: 25%;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 25%;
+  }
+}
+
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthXl emotion-0"
+    style="padding: 0px;"
+  >
+    <div
+      class="emotion-1"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthXl header-container emotion-2"
+      >
+        <svg
+          class="header-logo"
+          fill="#6953F4"
+          height="48"
+          viewBox="0 0 48 48"
+          width="48"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M20.7155 12.7156L23.437 8.07038C23.4839 7.97654 23.6012 7.97654 23.6246 8.07038L37.0675 31.0617C37.091 31.1086 37.0675 31.1555 37.0441 31.2024L29.3021 39.9063C29.2786 39.9297 29.2317 39.9532 29.2082 39.9532H22.9208C22.8035 39.9532 22.7566 39.8359 22.827 39.7655L27.0264 35.0265L30.9678 30.6159C31.0147 30.569 31.0147 30.5221 30.9912 30.4752L23.5308 17.6657L20.7155 12.8329C20.6921 12.8094 20.6921 12.7625 20.7155 12.7156ZM24.7508 35.238L20.5748 39.9301C20.5631 39.9419 20.5455 39.9536 20.5279 39.9653C20.5103 39.977 20.4927 39.9888 20.481 40.0005H17.8534C17.8065 40.0005 17.783 39.977 17.7596 39.9536L10.0176 31.2497C9.99413 31.2028 9.99413 31.1559 10.0176 31.109L19.6599 14.5459C19.7068 14.4755 19.8241 14.4755 19.871 14.5459L22.569 19.191C22.5924 19.2145 22.5924 19.2614 22.569 19.3083L16.0469 30.499C16.0235 30.5459 16.0469 30.5928 16.0704 30.6398L19.9648 35.0034C19.9883 35.0269 20.0352 35.0503 20.0587 35.0503H24.6569C24.7742 35.0503 24.8212 35.1676 24.7508 35.238Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <div
+          class="header-menu MuiBox-root emotion-3"
+        >
+          <div
+            class="header-menu-item MuiBox-root emotion-3"
+            href="/swap"
+          >
+            <h5
+              class="MuiTypography-root MuiTypography-h5 emotion-5"
+            >
+              Swap
+            </h5>
+          </div>
+          <div
+            class="header-menu-item MuiBox-root emotion-3"
+            href="/pool"
+          >
+            <h5
+              class="MuiTypography-root MuiTypography-h5 emotion-5"
+            >
+              Pool
+            </h5>
+          </div>
+          <div
+            class="header-menu-item MuiBox-root emotion-3"
+            href="/info"
+          >
+            <h5
+              class="MuiTypography-root MuiTypography-h5 emotion-5"
+            >
+              Info
+            </h5>
+          </div>
+          <div
+            class="header-menu-item MuiBox-root emotion-3"
+            href="/governance"
+          >
+            <h5
+              class="MuiTypography-root MuiTypography-h5 emotion-5"
+            >
+              Governance
+            </h5>
+          </div>
+        </div>
+        <div
+          class="header-actions MuiBox-root emotion-3"
+        >
+          <div
+            class="emotion-13"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium wallet-connect-button emotion-14"
+              tabindex="0"
+              type="button"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 emotion-15"
+              >
+                Connect Wallet
+              </p>
+              <span
+                class="MuiTouchRipple-root emotion-16"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    Mock Page!
+    <div
+      class="footer-container emotion-17"
+      data-testid="footer"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 footer-menu emotion-18"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 footer-menu-item emotion-19"
+          href="/swap"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 emotion-5"
+          >
+            Swap
+          </h5>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 footer-menu-item emotion-19"
+          href="/pool"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 emotion-5"
+          >
+            Pool
+          </h5>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 footer-menu-item emotion-19"
+          href="/info"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 emotion-5"
+          >
+            Info
+          </h5>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 footer-menu-item emotion-19"
+          href="/governance"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 emotion-5"
+          >
+            Governance
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

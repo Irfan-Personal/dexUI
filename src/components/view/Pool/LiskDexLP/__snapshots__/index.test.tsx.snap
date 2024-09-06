@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LiskDexLP component checks if the component matches the b  snapshot 1`] = `
+.emotion-0 {
+  position: relative;
+  border-radius: 0.5rem;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);
+  background: #FFFFFF;
+  padding: 1.5rem;
+}
+
+.emotion-0 .lisk-dex-lp-main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.emotion-0 .lisk-dex-lp-main .loader-component svg path {
+  stroke: #6953F4;
+}
+
+.emotion-2 {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.00735em;
+}
+
+.emotion-4 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  font-weight: 500;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.00938em;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="lisk-dex-lp-title MuiBox-root emotion-1"
+    >
+      <h4
+        class="MuiTypography-root MuiTypography-h4 emotion-2"
+      >
+        Your LiskDEX LP 
+      </h4>
+    </div>
+    <div
+      class="lisk-dex-lp-main MuiBox-root emotion-1"
+    >
+      <p
+        class="MuiTypography-root MuiTypography-body1 emotion-4"
+      >
+        You do not have any liquidity positions.
+      </p>
+    </div>
+  </div>
+</div>
+`;

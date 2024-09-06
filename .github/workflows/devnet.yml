@@ -1,0 +1,88 @@
+name: DEV-DEX-UI
+on:
+  push:
+    branches:
+      - devnet
+  workflow_dispatch:
+jobs:
+  build:
+    name: Build & Deploy
+    runs-on: ubuntu-20.04
+    env: ###--> Change all values here <--###
+      ECR_REPO_NAME: lc/stg/lisk-dexui
+      SERVICE_NAME:  LC-STG-SERVICE-LISK-DEXUI
+      CLUSTER_NAME: LC-ECS-CLUSTER
+      CONTAINER_NAME: LC-STG-TD-LISKDEXUI
+      TASK_DEF_NAME: LC-STG-TD-LISKDEXUI
+      DISTRIBUTION_ID_FE: E3RBC6XCZ0OJ4Q
+      SSM_PATH: /LC/STG/LISKDEXUI
+      DEPLOY_ENV: STG
+      ###--> Change all values here <--##
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Configure AWS cli
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+
+      - name: Fetch parameter store secrets
+        uses: deptno/action-aws-ssm-to-dotenv@v1.3.1
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
+        with:
+          ssm-path: ${{env.SSM_PATH}}
+          output: .env
+
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+
+      - name: Build & Push Docker Image
+        env:
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+        run: |
+          docker build -t ${{ env.ECR_REPO_NAME }}:latest .
+          docker tag ${{ env.ECR_REPO_NAME }}:latest ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPO_NAME }}:${{ github.sha }}
+          docker tag ${{ env.ECR_REPO_NAME }}:latest ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPO_NAME }}:latest
+          docker push ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPO_NAME }}:${{ github.sha }}
+          docker push ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPO_NAME }}:latest
+          
+      - name: Replace ECS Task Definition Template
+        uses: franzbischoff/replace_envs@v1
+        env:
+          DEPLOYMENT_NAME: ${{env.CONTAINER_NAME}}
+          DOCKER_IMAGE: ${{ steps.login-ecr.outputs.registry }}/${{ env.ECR_REPO_NAME }}:${{ github.sha }}
+          DEPLOYMENT_ENV: ${{env.DEPLOY_ENV}}
+        with:
+          from_file: "ecs-task-definition.json"
+          to_file: "${{env.TASK_DEF_NAME}}-task-def_${{ github.run_id }}.json"
+          commit: "false"
+
+      - name: Create new Task Definition
+        id: task-def
+        uses: aws-actions/amazon-ecs-render-task-definition@v1
+        with:
+          task-definition: ${{env.TASK_DEF_NAME}}-task-def_${{ github.run_id }}.json
+          container-name: ${{env.CONTAINER_NAME}}
+          image: ${{ steps.login-ecr.outputs.registry }}/${{ env.ECR_REPO_NAME }}:${{ github.sha }}
+
+      - name: Deploy task definition
+        uses: aws-actions/amazon-ecs-deploy-task-definition@v1
+        with:
+          task-definition: ${{ steps.task-def.outputs.task-definition }}
+          service: ${{ env.SERVICE_NAME }}
+          cluster: ${{ env.CLUSTER_NAME }}
+          wait-for-service-stability: true
+
+      - name: Invalidate CF
+        run: |
+          aws cloudfront create-invalidation --distribution-id ${{ env.DISTRIBUTION_ID_FE }} --paths '/*'

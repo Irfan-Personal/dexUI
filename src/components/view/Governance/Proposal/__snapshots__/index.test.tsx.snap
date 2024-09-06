@@ -1,0 +1,2576 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProposalView checks if the component matches the snapshot 1`] = `
+.emotion-0 {
+  position: relative;
+  margin-top: 4.25rem;
+  margin-bottom: 4rem;
+  padding: 3rem;
+}
+
+@media (max-width:1023.95px) {
+  .emotion-0 {
+    padding: 3rem 1rem;
+  }
+}
+
+.emotion-0 .proposal-path {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #6953F4;
+}
+
+.emotion-0 .proposal-path svg {
+  width: 1rem;
+  margin: 0 0.5rem;
+}
+
+.emotion-0 .proposal-container {
+  padding: 5rem 10rem;
+}
+
+@media (max-width:1023.95px) {
+  .emotion-0 .proposal-container {
+    padding: 3rem 0rem;
+  }
+}
+
+.emotion-0 .proposal-container .proposal-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+  border-bottom: 0.5px solid #E6E6E6;
+}
+
+@media (max-width:575.95px) {
+  .emotion-0 .proposal-container .proposal-header {
+    display: -webkit-box;
+    display: -webkit-unset;
+    display: -ms-unsetbox;
+    display: unset;
+  }
+}
+
+.emotion-0 .proposal-container .proposal-header .proposal-badges {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-0 .proposal-container .proposal-header .proposal-badges .proposal-type-badge {
+  margin-left: 0.75rem;
+}
+
+.emotion-0 .proposal-container .proposal-header .proposal-header-title {
+  margin-top: 1rem;
+}
+
+.emotion-0 .proposal-container .proposal-header .proposal-header-short {
+  margin-top: 1rem;
+}
+
+.emotion-0 .proposal-container .proposal-header .proposal-header-actions {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width:575.95px) {
+  .emotion-0 .proposal-container .proposal-header .proposal-header-actions {
+    margin-top: 2rem;
+  }
+}
+
+.emotion-0 .proposal-container .proposal-header .proposal-header-actions .proposal-header-vote-button {
+  width: 14.125rem;
+  margin-right: 0.5rem;
+}
+
+@media (max-width:575.95px) {
+  .emotion-0 .proposal-container .proposal-header .proposal-header-actions .proposal-header-vote-button {
+    width: 100%;
+  }
+}
+
+.emotion-0 .proposal-container .proposal-header .proposal-header-actions .proposal-header-header-menu-list-button {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 0.5rem;
+  color: #282828;
+}
+
+.emotion-0 .proposal-container .proposal-body {
+  padding: 2.5rem 0;
+}
+
+.emotion-0 .proposal-container .proposal-body .MuiGrid-item {
+  width: 100%;
+}
+
+.emotion-0 .proposal-container .proposal-body .proposal-body-summary {
+  margin-bottom: 2rem;
+}
+
+.emotion-0 .proposal-container .proposal-body .proposal-body-description {
+  color: #6B7280;
+  margin-bottom: 4rem;
+  white-space: pre-line;
+}
+
+.emotion-0 .proposal-container .proposal-body .your-voting-info-component {
+  margin-bottom: 2rem;
+}
+
+.emotion-0 .proposal-container .proposal-body .status-history-component {
+  margin-bottom: 2rem;
+}
+
+.emotion-0 .proposal-container .proposal-body .current-result-component {
+  margin-bottom: 2rem;
+}
+
+.emotion-2 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0em;
+}
+
+.emotion-9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 1.25rem;
+  border-radius: 0.75rem;
+  border: 0.75px solid #4738A6;
+  padding: 0.25rem 0.625rem;
+  background: #E7E9F9;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.emotion-9 h6 {
+  font-size: 0.75rem;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.emotion-10 {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: 500;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.0075em;
+}
+
+.emotion-11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 1.25rem;
+  border-radius: 0.75rem;
+  border: 0.75px solid #6953F4;
+  padding: 0.25rem 0.625rem;
+}
+
+.emotion-11 svg {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.emotion-11 h6 {
+  margin-left: 0.375rem;
+  font-size: 0.75rem;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.emotion-13 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  line-height: 1.2;
+  letter-spacing: -0.00833em;
+}
+
+.emotion-14 {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.01071em;
+}
+
+.emotion-16 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  min-width: 64px;
+  padding: 6px 16px;
+  border-radius: 4px;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: #fff;
+  background-color: #1976d2;
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+  width: 100%;
+  color: #FF4557;
+  padding: 0.75rem;
+  text-transform: capitalize;
+}
+
+.emotion-16::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-16.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-16 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-16:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #1565c0;
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+
+@media (hover: none) {
+  .emotion-16:hover {
+    background-color: #1976d2;
+  }
+}
+
+.emotion-16:active {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+
+.emotion-16.Mui-focusVisible {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+
+.emotion-16.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+.emotion-16.MuiButton-outlined {
+  border-color: #FF4557;
+}
+
+.emotion-16.MuiButton-contained {
+  background: #6953F4;
+  color: #FFFFFF;
+}
+
+.emotion-16.Mui-disabled {
+  opacity: 0.7;
+}
+
+.emotion-17 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  font-weight: 500;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.00938em;
+}
+
+.emotion-18 {
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: inherit;
+}
+
+.emotion-19 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 1.5rem;
+  padding: 8px;
+  border-radius: 50%;
+  overflow: visible;
+  color: rgba(0, 0, 0, 0.54);
+  -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-19::-moz-focus-inner {
+  border-style: none;
+}
+
+.emotion-19.Mui-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media print {
+  .emotion-19 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-19:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+@media (hover: none) {
+  .emotion-19:hover {
+    background-color: transparent;
+  }
+}
+
+.emotion-19.Mui-disabled {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.emotion-22 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: -32px;
+  width: calc(100% + 32px);
+  margin-left: -32px;
+}
+
+.emotion-22>.MuiGrid-item {
+  padding-top: 32px;
+}
+
+.emotion-22>.MuiGrid-item {
+  padding-left: 32px;
+}
+
+.emotion-23 {
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+@media (min-width:576px) {
+  .emotion-23 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-23 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+  .emotion-23 {
+    -webkit-flex-basis: 66.666667%;
+    -ms-flex-preferred-size: 66.666667%;
+    flex-basis: 66.666667%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 66.666667%;
+  }
+}
+
+@media (min-width:1440px) {
+  .emotion-23 {
+    -webkit-flex-basis: 66.666667%;
+    -ms-flex-preferred-size: 66.666667%;
+    flex-basis: 66.666667%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 66.666667%;
+  }
+}
+
+.emotion-24 {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.00735em;
+}
+
+.emotion-27 {
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+@media (min-width:576px) {
+  .emotion-27 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-27 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+  .emotion-27 {
+    -webkit-flex-basis: 33.333333%;
+    -ms-flex-preferred-size: 33.333333%;
+    flex-basis: 33.333333%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 33.333333%;
+  }
+}
+
+@media (min-width:1440px) {
+  .emotion-27 {
+    -webkit-flex-basis: 33.333333%;
+    -ms-flex-preferred-size: 33.333333%;
+    flex-basis: 33.333333%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 33.333333%;
+  }
+}
+
+.emotion-28 {
+  background: #FFFFFF;
+  border-radius: 0.5rem;
+  border: 0.5px solid #E6E6E6;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.emotion-28 .your-voting-info-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: 1.5rem;
+  border-bottom: 0.5px solid #E6E6E6;
+}
+
+.emotion-28 .your-voting-info-body {
+  padding: 1.5rem;
+}
+
+.emotion-33 {
+  background: #FFFFFF;
+  border-radius: 0.5rem;
+  border: 0.5px solid #E6E6E6;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.emotion-33 .status-history-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: 1.5rem;
+  border-bottom: 0.5px solid #E6E6E6;
+}
+
+.emotion-33 .status-history-body {
+  padding: 2rem 1.5rem 0 1.5rem;
+}
+
+.emotion-33 .status-history-body .MuiTimeline-root {
+  padding: 0;
+  margin: 0;
+  margin-top: 0.375rem;
+}
+
+.emotion-33 .status-history-body .MuiTimeline-root .MuiTimelineItem-root {
+  margin-top: -0.375rem;
+}
+
+.emotion-33 .status-history-body .MuiTimeline-root .MuiTimelineItem-root .MuiTimelineDot-root {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 1.25rem;
+  height: 1.25rem;
+  background: #FBFBFF;
+  border: 2px solid #EDEDED;
+  box-shadow: none;
+}
+
+.emotion-33 .status-history-body .MuiTimeline-root .MuiTimelineItem-root .MuiTimelineDot-root svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: #6953F4;
+}
+
+.emotion-33 .status-history-body .MuiTimeline-root .MuiTimelineItem-root .MuiTimelineDot-root.pending {
+  border: 2px solid #6953F4;
+  padding: 0.25rem!important;
+}
+
+.emotion-33 .status-history-body .MuiTimeline-root .MuiTimelineItem-root .MuiTimelineDot-root.pending:after {
+  content: "";
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background: #6953F4;
+}
+
+.emotion-33 .status-history-body .MuiTimeline-root .MuiTimelineItem-root .MuiTimelineConnector-root {
+  background: #EDEDED;
+  width: 2px;
+  height: 3.25rem;
+  margin-top: -0.375rem;
+  border-radius: 2px;
+}
+
+.emotion-33 .status-history-body .MuiTimeline-root .MuiTimelineItem-root .MuiTimelineConnector-root.success {
+  background: #6953F4;
+}
+
+.emotion-33 .status-history-body .MuiTimeline-root .MuiTimelineItem-root .MuiTimelineContent-root {
+  padding: 0;
+  margin-left: 1.5rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.emotion-37 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 6px 16px;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.emotion-37 .MuiTimelineItem-root:before {
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  padding: 0px;
+}
+
+.emotion-38 {
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  min-height: 70px;
+}
+
+.emotion-38:before {
+  content: "";
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 6px 16px;
+}
+
+.emotion-39 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-40 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: baseline;
+  -ms-flex-item-align: baseline;
+  align-self: baseline;
+  border-style: solid;
+  border-width: 2px;
+  padding: 4px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+  margin: 11.5px 0;
+  border-color: transparent;
+  color: #fafafa;
+  background-color: #bdbdbd;
+}
+
+.emotion-41 {
+  width: 2px;
+  background-color: #bdbdbd;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.emotion-42 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  font-weight: 500;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.00938em;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 6px 16px;
+  text-align: left;
+}
+
+.emotion-65 {
+  background: #FFFFFF;
+  border-radius: 0.5rem;
+  border: 0.5px solid #E6E6E6;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.emotion-65 .current-result-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: 1.5rem;
+  border-bottom: 0.5px solid #E6E6E6;
+}
+
+.emotion-65 .current-result-body {
+  padding: 2.5rem 1rem 2rem 1rem;
+}
+
+.emotion-65 .current-result-body .current-result-circular-progress {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 8.75rem!important;
+  margin-bottom: 2.5rem;
+}
+
+.emotion-65 .current-result-body .current-result-circular-progress .MuiCircularProgress-root {
+  width: 8.75rem!important;
+  height: 8.75rem!important;
+}
+
+.emotion-65 .current-result-body .current-result-circular-progress .circular-progress-vote-no {
+  position: absolute;
+  color: #F5981B;
+}
+
+.emotion-65 .current-result-body .current-result-circular-progress .circular-progress-vote-yes {
+  position: absolute;
+  color: #6953F4;
+}
+
+.emotion-65 .current-result-body .current-result-circular-progress h3 {
+  color: #6953F4;
+}
+
+.emotion-65 .current-result-body .current-result-linear-progress {
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.emotion-65 .current-result-body .current-result-linear-progress .MuiLinearProgress-root {
+  height: 0.5rem;
+  background: #E3E3E4;
+}
+
+.emotion-65 .current-result-body .current-result-linear-progress.vote-yes .MuiLinearProgress-bar {
+  background: #6953F4;
+}
+
+.emotion-65 .current-result-body .current-result-linear-progress.vote-yes .vote-yes-percent {
+  color: #6953F4;
+}
+
+.emotion-65 .current-result-body .current-result-linear-progress.vote-no .MuiLinearProgress-bar {
+  background: #F5981B;
+}
+
+.emotion-65 .current-result-body .current-result-linear-progress.vote-no .vote-no-percent {
+  color: #F5981B;
+}
+
+.emotion-65 .current-result-body .current-result-linear-progress.vote-pass .MuiLinearProgress-bar {
+  background: #45F4FF;
+}
+
+.emotion-65 .current-result-body .current-result-linear-progress.vote-pass .vote-pass-percent {
+  color: #45F4FF;
+}
+
+.emotion-65 .current-result-body .current-result-linear-progress .current-result-linear-progress-info {
+  margin-top: 0.25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.emotion-65 .current-result-body .current-result-linear-progress .current-result-linear-progress-info span {
+  font-weight: 400;
+  color: #6B7280;
+  font-size: 0.75rem;
+}
+
+.emotion-65 .current-result-body .current-result-linear-progress .current-result-linear-progress-info .current-result-linear-progress-vote yes-percet {
+  font-weight: 500;
+  color: #6953F4;
+}
+
+.emotion-65 .current-result-body .current-result-linear-state {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.emotion-65 .current-result-body .current-result-linear-state .current-result-linear-state-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+}
+
+.emotion-65 .current-result-body .current-result-linear-minimum-approval {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-top: 0.75rem;
+}
+
+.emotion-65 .current-result-body .current-result-linear-total-voting-power {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.emotion-70 {
+  display: inline-block;
+  -webkit-transition: -webkit-transform 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: #1976d2;
+}
+
+.emotion-71 {
+  display: block;
+}
+
+.emotion-72 {
+  stroke: currentColor;
+  -webkit-transition: stroke-dashoffset 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: stroke-dashoffset 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.emotion-76 {
+  margin: 0;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  font-weight: 600;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0em;
+}
+
+.emotion-79 {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  height: 4px;
+  z-index: 0;
+  background-color: rgb(167, 202, 237);
+}
+
+@media print {
+  .emotion-79 {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+
+.emotion-80 {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  -webkit-transition: -webkit-transform .4s linear;
+  transition: transform .4s linear;
+  transform-origin: left;
+  background-color: #1976d2;
+}
+
+.emotion-82 {
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 500;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.03333em;
+}
+
+.emotion-103 {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  letter-spacing: 0.01071em;
+  font-size: 0.75rem;
+}
+
+.emotion-110 {
+  background: #FFFFFF;
+  border-radius: 0.5rem;
+  border: 0.5px solid #E6E6E6;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.emotion-110 .votes-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: 1.5rem;
+  border-bottom: 0.5px solid #E6E6E6;
+}
+
+.emotion-110 .votes-body {
+  padding: 1.5rem;
+}
+
+.emotion-110 .votes-body .votes-view-more {
+  cursor: pointer;
+  margin-top: 1.5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  color: #6953F4;
+}
+
+.emotion-110 .votes-body .votes-view-more svg {
+  margin-left: 0.75rem;
+  width: 0.5rem;
+}
+
+.emotion-114 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 1.5rem 0;
+  border-bottom: 0.5px solid #E6E6E6;
+}
+
+.emotion-114 .MuiGrid-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-114 .vote-user p {
+  margin-left: 0.5rem;
+  font-weight: 500;
+  color: #6953F4;
+}
+
+.emotion-114 .vote-amount {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: end;
+  justify-content: end;
+}
+
+.emotion-115 {
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-basis: 50%;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  max-width: 50%;
+}
+
+@media (min-width:576px) {
+  .emotion-115 {
+    -webkit-flex-basis: 33.333333%;
+    -ms-flex-preferred-size: 33.333333%;
+    flex-basis: 33.333333%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 33.333333%;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-115 {
+    -webkit-flex-basis: 33.333333%;
+    -ms-flex-preferred-size: 33.333333%;
+    flex-basis: 33.333333%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 33.333333%;
+  }
+}
+
+@media (min-width:1024px) {
+  .emotion-115 {
+    -webkit-flex-basis: 33.333333%;
+    -ms-flex-preferred-size: 33.333333%;
+    flex-basis: 33.333333%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 33.333333%;
+  }
+}
+
+@media (min-width:1440px) {
+  .emotion-115 {
+    -webkit-flex-basis: 33.333333%;
+    -ms-flex-preferred-size: 33.333333%;
+    flex-basis: 33.333333%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 33.333333%;
+  }
+}
+
+.emotion-117 {
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-basis: 25%;
+  -ms-flex-preferred-size: 25%;
+  flex-basis: 25%;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  max-width: 25%;
+}
+
+@media (min-width:576px) {
+  .emotion-117 {
+    -webkit-flex-basis: 33.333333%;
+    -ms-flex-preferred-size: 33.333333%;
+    flex-basis: 33.333333%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 33.333333%;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-117 {
+    -webkit-flex-basis: 33.333333%;
+    -ms-flex-preferred-size: 33.333333%;
+    flex-basis: 33.333333%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 33.333333%;
+  }
+}
+
+@media (min-width:1024px) {
+  .emotion-117 {
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 50%;
+  }
+}
+
+@media (min-width:1440px) {
+  .emotion-117 {
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 50%;
+  }
+}
+
+.emotion-119 {
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-basis: 25%;
+  -ms-flex-preferred-size: 25%;
+  flex-basis: 25%;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  max-width: 25%;
+}
+
+@media (min-width:576px) {
+  .emotion-119 {
+    -webkit-flex-basis: 33.333333%;
+    -ms-flex-preferred-size: 33.333333%;
+    flex-basis: 33.333333%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 33.333333%;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-119 {
+    -webkit-flex-basis: 33.333333%;
+    -ms-flex-preferred-size: 33.333333%;
+    flex-basis: 33.333333%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 33.333333%;
+  }
+}
+
+@media (min-width:1024px) {
+  .emotion-119 {
+    -webkit-flex-basis: 16.666667%;
+    -ms-flex-preferred-size: 16.666667%;
+    flex-basis: 16.666667%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 16.666667%;
+  }
+}
+
+@media (min-width:1440px) {
+  .emotion-119 {
+    -webkit-flex-basis: 16.666667%;
+    -ms-flex-preferred-size: 16.666667%;
+    flex-basis: 16.666667%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    max-width: 16.666667%;
+  }
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="proposal-path MuiBox-root emotion-1"
+    >
+      <h5
+        class="MuiTypography-root MuiTypography-h5 emotion-2"
+      >
+        Home
+      </h5>
+      <svg
+        aria-hidden="true"
+        class="svg-inline--fa fa-chevron-right "
+        data-icon="chevron-right"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        viewBox="0 0 320 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+          fill="currentColor"
+        />
+      </svg>
+      <h5
+        class="MuiTypography-root MuiTypography-h5 emotion-2"
+      >
+        Governance
+      </h5>
+      <svg
+        aria-hidden="true"
+        class="svg-inline--fa fa-chevron-right "
+        data-icon="chevron-right"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        viewBox="0 0 320 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+          fill="currentColor"
+        />
+      </svg>
+      <h5
+        class="MuiTypography-root MuiTypography-h5 emotion-2"
+      >
+        Proposal
+      </h5>
+    </div>
+    <div
+      class="proposal-container MuiBox-root emotion-1"
+    >
+      <div
+        class="proposal-header MuiBox-root emotion-1"
+      >
+        <div
+          class="MuiBox-root emotion-1"
+        >
+          <div
+            class="proposal-badges MuiBox-root emotion-1"
+          >
+            <div
+              class="proposal-status-badge emotion-9"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 emotion-10"
+              >
+                Active
+              </h6>
+            </div>
+            <div
+              class="proposal-type-badge emotion-11"
+            >
+              <svg
+                fill="none"
+                height="32"
+                viewBox="0 0 32 32"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M32 26.1335V30.4004L28.267 32V27.7337L32 26.1335Z"
+                  fill="#7538D6"
+                />
+                <path
+                  d="M3.20059 17.6003H4.26698V19.7338H3.20059V17.6003Z"
+                  fill="#A89EF8"
+                />
+                <path
+                  d="M15.4668 17.6003H16.5339V19.7338H15.4668V17.6003Z"
+                  fill="#A89EF8"
+                />
+                <path
+                  d="M27.7338 17.6003H28.8001V19.7338H27.7338V17.6003Z"
+                  fill="#A89EF8"
+                />
+                <path
+                  d="M32 13.8672V18.1335L28.267 19.7337V15.4668L32 13.8672Z"
+                  fill="#7538D6"
+                />
+                <path
+                  d="M27.7338 5.33331H28.8001V7.46678H27.7338V5.33331Z"
+                  fill="#A89EF8"
+                />
+                <path
+                  d="M32 1.6003V5.86724L28.267 7.46682V3.20057L32 1.6003Z"
+                  fill="#7538D6"
+                />
+                <path
+                  d="M32 1.6003L28.267 3.20057L24.5338 1.60028L28.2669 0L32 1.6003Z"
+                  fill="#6953F4"
+                />
+                <path
+                  d="M28.2669 12.2669L32 13.8672L28.267 15.4668L24.5338 13.8672L28.2669 12.2669Z"
+                  fill="#6953F4"
+                />
+                <path
+                  d="M28.2669 24.5339L32 26.1335L28.267 27.7337L24.5338 26.1335L28.2669 24.5339Z"
+                  fill="#6953F4"
+                />
+                <path
+                  d="M24.5338 26.1335L28.267 27.7337V32L24.5338 30.4004V26.1335Z"
+                  fill="#4738A6"
+                />
+                <path
+                  d="M24.5338 13.8672L28.267 15.4668V19.7337L24.5338 18.1335V13.8672Z"
+                  fill="#4738A6"
+                />
+                <path
+                  d="M24.5338 1.60028L28.267 3.20057V7.46682L24.5338 5.86724V1.60028Z"
+                  fill="#4738A6"
+                />
+                <path
+                  d="M19.7337 30.4004L16 32V27.7337L19.7337 26.1335V30.4004Z"
+                  fill="#7538D6"
+                />
+                <path
+                  d="M19.7337 18.1335L16 19.7337V15.4668L19.7337 13.8672V18.1335Z"
+                  fill="#7538D6"
+                />
+                <path
+                  d="M15.4668 5.33331H16.5339V7.46678H15.4668V5.33331Z"
+                  fill="#A89EF8"
+                />
+                <path
+                  d="M19.7337 5.86724L16 7.46682V3.20057L19.7337 1.6003V5.86724Z"
+                  fill="#7538D6"
+                />
+                <path
+                  d="M19.7337 1.6003L16 3.20057L12.267 1.60028L16 0L19.7337 1.6003Z"
+                  fill="#6953F4"
+                />
+                <path
+                  d="M16 12.2669L19.7337 13.8672L16 15.4668L12.267 13.8672L16 12.2669Z"
+                  fill="#6953F4"
+                />
+                <path
+                  d="M16 24.5339L19.7337 26.1335L16 27.7337L12.267 26.1335L16 24.5339Z"
+                  fill="#6953F4"
+                />
+                <path
+                  d="M12.267 26.1335L16 27.7337V32L12.267 30.4004V26.1335Z"
+                  fill="#4738A6"
+                />
+                <path
+                  d="M12.267 13.8672L16 15.4668V19.7337L12.267 18.1335V13.8672Z"
+                  fill="#4738A6"
+                />
+                <path
+                  d="M12.267 1.60028L16 3.20057V7.46682L12.267 5.86724V1.60028Z"
+                  fill="#4738A6"
+                />
+                <path
+                  d="M7.46684 30.4004L3.73379 32V27.7337L7.46684 26.1335V30.4004Z"
+                  fill="#7538D6"
+                />
+                <path
+                  d="M7.46684 18.1335L3.73379 19.7337V15.4668L7.46684 13.8672V18.1335Z"
+                  fill="#7538D6"
+                />
+                <path
+                  d="M3.20059 5.33331H4.26698V7.46678H3.20059V5.33331Z"
+                  fill="#A89EF8"
+                />
+                <path
+                  d="M7.46684 5.86724L3.73379 7.46682V3.20057L7.46684 1.6003V5.86724Z"
+                  fill="#7538D6"
+                />
+                <path
+                  d="M7.46684 1.6003L3.73379 3.20057L0 1.60028L3.73374 0L7.46684 1.6003Z"
+                  fill="#6953F4"
+                />
+                <path
+                  d="M3.73374 12.2669L7.46684 13.8672L3.73379 15.4668L0 13.8672L3.73374 12.2669Z"
+                  fill="#6953F4"
+                />
+                <path
+                  d="M3.73374 24.5339L7.46684 26.1335L3.73379 27.7337L0 26.1335L3.73374 24.5339Z"
+                  fill="#6953F4"
+                />
+                <path
+                  d="M3.73379 27.7337V32L0 30.4004V26.1335L3.73379 27.7337Z"
+                  fill="#4738A6"
+                />
+                <path
+                  d="M3.73379 15.4668V19.7337L0 18.1335V13.8672L3.73379 15.4668Z"
+                  fill="#4738A6"
+                />
+                <path
+                  d="M3.73379 3.20057V7.46682L0 5.86724V1.60028L3.73379 3.20057Z"
+                  fill="#4738A6"
+                />
+                <path
+                  d="M3.20059 7.46678H4.26698V13.8672H3.20059V7.46678Z"
+                  fill="#A89EF8"
+                />
+                <path
+                  d="M15.4668 7.46678H16.5339V13.8672H15.4668V7.46678Z"
+                  fill="#A89EF8"
+                />
+                <path
+                  d="M27.7338 7.46678H28.8001V13.8672H27.7338V7.46678Z"
+                  fill="#A89EF8"
+                />
+                <path
+                  d="M3.20059 19.7338H4.26698V26.1334H3.20059V19.7338Z"
+                  fill="#A89EF8"
+                />
+                <path
+                  d="M15.4668 19.7338H16.5339V26.1334H15.4668V19.7338Z"
+                  fill="#A89EF8"
+                />
+                <path
+                  d="M27.7338 19.7338H28.8001V26.1334H27.7338V19.7338Z"
+                  fill="#A89EF8"
+                />
+                <path
+                  d="M5.86721 16H13.8672V17.0671H5.86721V16Z"
+                  fill="#A89EF8"
+                />
+                <path
+                  d="M5.86721 3.73372H13.8672V4.80011H5.86721V3.73372Z"
+                  fill="#A89EF8"
+                />
+                <path
+                  d="M5.86721 28.2669H13.8672V29.3333H5.86721V28.2669Z"
+                  fill="#A89EF8"
+                />
+                <path
+                  d="M18.1334 16H26.1334V17.0671H18.1334V16Z"
+                  fill="#A89EF8"
+                />
+                <path
+                  d="M18.1334 3.73372H26.1334V4.80011H18.1334V3.73372Z"
+                  fill="#A89EF8"
+                />
+                <path
+                  d="M18.1334 28.2669H26.1334V29.3333H18.1334V28.2669Z"
+                  fill="#A89EF8"
+                />
+              </svg>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 emotion-10"
+              >
+                Pool Incentivization proposal
+              </h6>
+            </div>
+          </div>
+          <h2
+            class="MuiTypography-root MuiTypography-h2 proposal-header-title emotion-13"
+          >
+            Deploy Lisk DEX to Bridges on V2
+          </h2>
+          <p
+            class="MuiTypography-root MuiTypography-body2 proposal-header-short emotion-14"
+          >
+            by 
+            Author
+               •   Proposed on: Dec 14th, 2022   •   Ends in 12 days
+          </p>
+        </div>
+        <div
+          class="proposal-header-actions MuiBox-root emotion-1"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium proposal-header-vote-button emotion-16"
+            data-testid="vote-button-test"
+            tabindex="0"
+            type="button"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 emotion-17"
+            >
+              Vote
+            </p>
+            <span
+              class="MuiTouchRipple-root emotion-18"
+            />
+          </button>
+          <button
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium proposal-header-header-menu-list-button emotion-19"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-ellipsis-vertical "
+              data-icon="ellipsis-vertical"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 128 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root emotion-18"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="proposal-body MuiBox-root emotion-1"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 emotion-22"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-8 MuiGrid-grid-xl-8 emotion-23"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 proposal-body-summary emotion-24"
+            >
+              The DEX Governance module allows creating pool incentivization proposals and universal proposals. The motivation for the proposals is slightly different.
+            </h4>
+            <div
+              class="proposal-body-description MuiBox-root emotion-1"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 emotion-17"
+              >
+                Blockchain, the distributed ledger technology, represents most of those things. It promotes consensus because itâs a record-keeping platform.
+
+The transparent because participants in the chain can download and validate individual ledgers. And itâs permanent because those ledgers canât be altered. 
+
+Like education, blockchain is intended to transfer not just content, but also the value inherent in that content.According to our latest research, the global.
+
+Blockchain in Education market size will reach USD million in 2028, growing at a CAGR of % over the analysis period.
+
+Global Blockchain in Education Scope and Market report focuses on the global Blockchain in Education status, future forecast, growth opportunity, key market and key players. 
+
+The study objectives are to present the Blockchain in Education development in North America, Europe, China, Japan, Southeast Asia, India and Central and South America, etc.
+
+It additionally affords the proper insights and evaluation which are crucial to layout powerful commercial enterprise techniques and set the proper direction for improved boom for all enterprise gamers involved. 
+
+With this information, the ones in rate might be capable of create new techniques, which consciousness available in the marketplace possibilities in order to advantage them, maing their commercial enterprise efforts profitable
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 emotion-27"
+          >
+            <div
+              class="your-voting-info-component emotion-28"
+            >
+              <div
+                class="your-voting-info-header MuiBox-root emotion-1"
+              >
+                <h4
+                  class="MuiTypography-root MuiTypography-h4 emotion-24"
+                >
+                  Your voting info
+                </h4>
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-bolt "
+                  data-icon="bolt"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 448 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288H175.5L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7H272.5L349.4 44.6z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+              <div
+                class="your-voting-info-body MuiBox-root emotion-1"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  You did not participate in this proposal
+                </p>
+              </div>
+            </div>
+            <div
+              class="status-history-component emotion-33"
+            >
+              <div
+                class="status-history-header MuiBox-root emotion-1"
+              >
+                <h4
+                  class="MuiTypography-root MuiTypography-h4 emotion-24"
+                >
+                  Status history
+                </h4>
+                <svg
+                  fill="none"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    clip-path="url(#clip0_1196_28653)"
+                  >
+                    <path
+                      d="M10.0013 18.3332C14.6037 18.3332 18.3346 14.6022 18.3346 9.99984C18.3346 5.39746 14.6037 1.6665 10.0013 1.6665C5.39893 1.6665 1.66797 5.39746 1.66797 9.99984C1.66797 14.6022 5.39893 18.3332 10.0013 18.3332Z"
+                      stroke="#3D3D3D"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.66667"
+                    />
+                    <path
+                      d="M10 5V10L13.3333 11.6667"
+                      stroke="#3D3D3D"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.66667"
+                    />
+                  </g>
+                  <defs>
+                    <clippath
+                      id="clip0_1196_28653"
+                    >
+                      <rect
+                        fill="white"
+                        height="20"
+                        width="20"
+                      />
+                    </clippath>
+                  </defs>
+                </svg>
+              </div>
+              <div
+                class="status-history-body MuiBox-root emotion-1"
+              >
+                <ul
+                  class="MuiTimeline-root MuiTimeline-positionRight emotion-37"
+                >
+                  <li
+                    class="MuiTimelineItem-root MuiTimelineItem-positionRight MuiTimelineItem-missingOppositeContent emotion-38"
+                  >
+                    <div
+                      class="MuiTimelineSeparator-root emotion-39"
+                    >
+                      <span
+                        class="MuiTimelineDot-root MuiTimelineDot-filled MuiTimelineDot-filledGrey emotion-40"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="svg-inline--fa fa-circle-check "
+                          data-icon="circle-check"
+                          data-prefix="fas"
+                          focusable="false"
+                          role="img"
+                          viewBox="0 0 512 512"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"
+                            fill="currentColor"
+                          />
+                        </svg>
+                      </span>
+                      <span
+                        class="MuiTimelineConnector-root success emotion-41"
+                      />
+                    </div>
+                    <div
+                      class="MuiTypography-root MuiTypography-body1 MuiTimelineContent-root MuiTimelineContent-positionRight emotion-42"
+                    >
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 emotion-17"
+                      >
+                        Created
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body2 emotion-14"
+                      >
+                        December 14, 2022 - 3:45:24 PM
+                      </p>
+                    </div>
+                  </li>
+                  <li
+                    class="MuiTimelineItem-root MuiTimelineItem-positionRight MuiTimelineItem-missingOppositeContent emotion-38"
+                  >
+                    <div
+                      class="MuiTimelineSeparator-root emotion-39"
+                    >
+                      <span
+                        class="MuiTimelineDot-root MuiTimelineDot-filled MuiTimelineDot-filledGrey pending emotion-40"
+                      />
+                      <span
+                        class="MuiTimelineConnector-root emotion-41"
+                      />
+                    </div>
+                    <div
+                      class="MuiTypography-root MuiTypography-body1 MuiTimelineContent-root MuiTimelineContent-positionRight emotion-42"
+                    >
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 emotion-17"
+                      >
+                        Start date
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body2 emotion-14"
+                      >
+                        December 15, 2022 - 12:00:00 AM
+                      </p>
+                    </div>
+                  </li>
+                  <li
+                    class="MuiTimelineItem-root MuiTimelineItem-positionRight MuiTimelineItem-missingOppositeContent emotion-38"
+                  >
+                    <div
+                      class="MuiTimelineSeparator-root emotion-39"
+                    >
+                      <span
+                        class="MuiTimelineDot-root MuiTimelineDot-filled MuiTimelineDot-filledGrey emotion-40"
+                      />
+                      <span
+                        class="MuiTimelineConnector-root emotion-41"
+                      />
+                    </div>
+                    <div
+                      class="MuiTypography-root MuiTypography-body1 MuiTimelineContent-root MuiTimelineContent-positionRight emotion-42"
+                    >
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 emotion-17"
+                      >
+                        Quorum
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body2 emotion-14"
+                      >
+                        January 15, 2022 - 12:00:00 AM
+                      </p>
+                    </div>
+                  </li>
+                  <li
+                    class="MuiTimelineItem-root MuiTimelineItem-positionRight MuiTimelineItem-missingOppositeContent emotion-38"
+                  >
+                    <div
+                      class="MuiTimelineSeparator-root emotion-39"
+                    >
+                      <span
+                        class="MuiTimelineDot-root MuiTimelineDot-filled MuiTimelineDot-filledGrey emotion-40"
+                      />
+                    </div>
+                    <div
+                      class="MuiTypography-root MuiTypography-body1 MuiTimelineContent-root MuiTimelineContent-positionRight emotion-42"
+                    >
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 emotion-17"
+                      >
+                        Executed/Rejected
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body2 emotion-14"
+                      >
+                        January 16, 2022 - 12:00:00 AM
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="current-result-component emotion-65"
+            >
+              <div
+                class="current-result-header MuiBox-root emotion-1"
+              >
+                <h4
+                  class="MuiTypography-root MuiTypography-h4 emotion-24"
+                >
+                  Current result
+                </h4>
+                <svg
+                  fill="none"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    clip-path="url(#clip0_581_45332)"
+                  >
+                    <path
+                      d="M17.6766 13.2417C17.1465 14.4955 16.3173 15.6002 15.2615 16.4595C14.2058 17.3187 12.9556 17.9063 11.6203 18.1707C10.2851 18.4352 8.90532 18.3685 7.60176 17.9766C6.2982 17.5846 5.11049 16.8793 4.14249 15.9223C3.17448 14.9653 2.45565 13.7857 2.04883 12.4867C1.64202 11.1877 1.55961 9.8088 1.8088 8.47059C2.058 7.13238 2.63122 5.87559 3.47834 4.81009C4.32547 3.74459 5.42071 2.90283 6.66831 2.3584"
+                      stroke="#3D3D3D"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.67"
+                    />
+                    <path
+                      d="M18.3333 9.99984C18.3333 8.90549 18.1178 7.82185 17.699 6.81081C17.2802 5.79976 16.6664 4.8811 15.8926 4.10728C15.1187 3.33346 14.2001 2.71963 13.189 2.30084C12.178 1.88205 11.0943 1.6665 10 1.6665V9.99984H18.3333Z"
+                      stroke="#3D3D3D"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.67"
+                    />
+                  </g>
+                  <defs>
+                    <clippath
+                      id="clip0_581_45332"
+                    >
+                      <rect
+                        fill="white"
+                        height="20"
+                        width="20"
+                      />
+                    </clippath>
+                  </defs>
+                </svg>
+              </div>
+              <div
+                class="current-result-body MuiBox-root emotion-1"
+              >
+                <div
+                  class="current-result-circular-progress MuiBox-root emotion-1"
+                >
+                  <span
+                    aria-valuenow="100"
+                    class="MuiCircularProgress-root MuiCircularProgress-determinate MuiCircularProgress-colorPrimary circular-progress-vote-no emotion-70"
+                    role="progressbar"
+                    style="width: 40px; height: 40px; transform: rotate(-90deg);"
+                  >
+                    <svg
+                      class="MuiCircularProgress-svg emotion-71"
+                      viewBox="22 22 44 44"
+                    >
+                      <circle
+                        class="MuiCircularProgress-circle MuiCircularProgress-circleDeterminate emotion-72"
+                        cx="44"
+                        cy="44"
+                        fill="none"
+                        r="20"
+                        stroke-width="4"
+                        style="stroke-dasharray: 125.664; stroke-dashoffset: 0.000px;"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    aria-valuenow="78"
+                    class="MuiCircularProgress-root MuiCircularProgress-determinate MuiCircularProgress-colorPrimary circular-progress-vote-yes emotion-70"
+                    role="progressbar"
+                    style="width: 40px; height: 40px; transform: rotate(-90deg);"
+                  >
+                    <svg
+                      class="MuiCircularProgress-svg emotion-71"
+                      viewBox="22 22 44 44"
+                    >
+                      <circle
+                        class="MuiCircularProgress-circle MuiCircularProgress-circleDeterminate emotion-72"
+                        cx="44"
+                        cy="44"
+                        fill="none"
+                        r="20"
+                        stroke-width="4"
+                        style="stroke-dasharray: 125.664; stroke-dashoffset: 27.646px;"
+                      />
+                    </svg>
+                  </span>
+                  <h3
+                    class="MuiTypography-root MuiTypography-h3 emotion-76"
+                  >
+                    78%
+                  </h3>
+                </div>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  Yes
+                </p>
+                <div
+                  class="current-result-linear-progress vote-yes MuiBox-root emotion-1"
+                >
+                  <span
+                    aria-valuemax="100"
+                    aria-valuemin="0"
+                    aria-valuenow="79"
+                    class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate emotion-79"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate emotion-80"
+                      style="transform: translateX(-21.47%);"
+                    />
+                  </span>
+                  <div
+                    class="current-result-linear-progress-info MuiBox-root emotion-1"
+                  >
+                    <span
+                      class="MuiTypography-root MuiTypography-caption emotion-82"
+                    >
+                      75K LSKDEX (276 votes)
+                    </span>
+                    <span
+                      class="MuiTypography-root MuiTypography-caption vote-yes-percent emotion-82"
+                    >
+                      78.53%
+                    </span>
+                  </div>
+                </div>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  No
+                </p>
+                <div
+                  class="current-result-linear-progress vote-no MuiBox-root emotion-1"
+                >
+                  <span
+                    aria-valuemax="100"
+                    aria-valuemin="0"
+                    aria-valuenow="22"
+                    class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate emotion-79"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate emotion-80"
+                      style="transform: translateX(-77.53999999999999%);"
+                    />
+                  </span>
+                  <div
+                    class="current-result-linear-progress-info MuiBox-root emotion-1"
+                  >
+                    <span
+                      class="MuiTypography-root MuiTypography-caption emotion-82"
+                    >
+                      75K LSKDEX (276 votes)
+                    </span>
+                    <span
+                      class="MuiTypography-root MuiTypography-caption vote-no-percent emotion-82"
+                    >
+                      22.46%
+                    </span>
+                  </div>
+                </div>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  Pass
+                </p>
+                <div
+                  class="current-result-linear-progress vote-pass MuiBox-root emotion-1"
+                >
+                  <span
+                    aria-valuemax="100"
+                    aria-valuemin="0"
+                    aria-valuenow="0"
+                    class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate emotion-79"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate emotion-80"
+                      style="transform: translateX(-100%);"
+                    />
+                  </span>
+                  <div
+                    class="current-result-linear-progress-info MuiBox-root emotion-1"
+                  >
+                    <span
+                      class="MuiTypography-root MuiTypography-caption emotion-82"
+                    >
+                      75K LSKDEX (276 votes)
+                    </span>
+                    <span
+                      class="MuiTypography-root MuiTypography-caption vote-pass-percent emotion-82"
+                    >
+                      0%
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="current-result-linear-state MuiBox-root emotion-1"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 emotion-14"
+                  >
+                    State
+                  </p>
+                  <div
+                    class="current-result-linear-state-info MuiBox-root emotion-1"
+                  >
+                    <div
+                      class="proposal-status-badge emotion-9"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6 emotion-10"
+                      >
+                        Active
+                      </h6>
+                    </div>
+                    <p
+                      class="MuiTypography-root MuiTypography-body2 emotion-103"
+                    >
+                      Started on Dec 15, 2022
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="current-result-linear-minimum-approval MuiBox-root emotion-1"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 emotion-14"
+                  >
+                    Minumum approval
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 emotion-103"
+                  >
+                    76%
+                  </p>
+                </div>
+                <div
+                  class="current-result-linear-total-voting-power MuiBox-root emotion-1"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 emotion-14"
+                  >
+                    Total voting power
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 emotion-103"
+                  >
+                    324
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="emotion-110"
+        >
+          <div
+            class="votes-header MuiBox-root emotion-1"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 emotion-24"
+            >
+              Votes • 
+              12
+            </h4>
+          </div>
+          <div
+            class="votes-body MuiBox-root emotion-1"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container emotion-114"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-4 vote-user emotion-115"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  0x90F8...c9C1
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-6 vote-agreed emotion-117"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  Yes
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-2 vote-amount emotion-119"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  12
+                   LISKDEX
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-container emotion-114"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-4 vote-user emotion-115"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  0x90F8...c9C1
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-6 vote-agreed emotion-117"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  No
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-2 vote-amount emotion-119"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  24
+                   LISKDEX
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-container emotion-114"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-4 vote-user emotion-115"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  0x90F8...c9C1
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-6 vote-agreed emotion-117"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  Yes
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-2 vote-amount emotion-119"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  16
+                   LISKDEX
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-container emotion-114"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-4 vote-user emotion-115"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  0x90F8...c9C1
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-6 vote-agreed emotion-117"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  Yes
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-2 vote-amount emotion-119"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  12
+                   LISKDEX
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-container emotion-114"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-4 vote-user emotion-115"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  0x90F8...c9C1
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-6 vote-agreed emotion-117"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  No
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-2 vote-amount emotion-119"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  24
+                   LISKDEX
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-container emotion-114"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-4 vote-user emotion-115"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  0x90F8...c9C1
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-6 vote-agreed emotion-117"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  Yes
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-2 vote-amount emotion-119"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  16
+                   LISKDEX
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-container emotion-114"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-4 vote-user emotion-115"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  0x90F8...c9C1
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-6 vote-agreed emotion-117"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  Yes
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-2 vote-amount emotion-119"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  12
+                   LISKDEX
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-container emotion-114"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-4 vote-user emotion-115"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  0x90F8...c9C1
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-6 vote-agreed emotion-117"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  No
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-2 vote-amount emotion-119"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  24
+                   LISKDEX
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-container emotion-114"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-4 vote-user emotion-115"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  0x90F8...c9C1
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-6 vote-agreed emotion-117"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  Yes
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-2 vote-amount emotion-119"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  16
+                   LISKDEX
+                </p>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-container emotion-114"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-4 vote-user emotion-115"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  0x90F8...c9C1
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-6 vote-agreed emotion-117"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  Yes
+                </p>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 MuiGrid-grid-lg-2 vote-amount emotion-119"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 emotion-14"
+                >
+                  12
+                   LISKDEX
+                </p>
+              </div>
+            </div>
+            <div
+              class="votes-view-more MuiBox-root emotion-1"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 emotion-14"
+              >
+                View more
+              </p>
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-chevron-down "
+                data-icon="chevron-down"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

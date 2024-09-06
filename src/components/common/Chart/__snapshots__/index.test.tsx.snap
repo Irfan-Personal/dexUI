@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component checks if the component matches the snapshot 1`] = `
+.emotion-0 .chart-example {
+  width: 12.5rem;
+}
+
+.emotion-1 {
+  width: 100%;
+  height: 12.5rem;
+}
+
+.emotion-1 svg {
+  width: 100%;
+  height: 12.5rem;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="chart-example emotion-1"
+    >
+      <svg />
+    </div>
+  </div>
+</div>
+`;
